@@ -1,0 +1,30 @@
+* {-mox-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
+
+body {
+    font-family: "Oswald", Helvetica, sans-serif;
+    font-size: 16px;
+}
+ header {
+     background-color: #5b3758;
+     color: ivory;
+     font-family: "Poppins", Gadget, sans-serif;
+     font-size: ;
+     
+ }
+ footer {
+     background-color: #5b3758;
+     color: ivory;
+     font-family:"Poppins", Gadget, sans-serif;
+    
+     text-align: center;
+
+ }
+ #href {
+     color: ivory;
+ }
+ header h1{
+     margin: 0;
+ }
+ header h2{
+     margin: 0;
+ }
