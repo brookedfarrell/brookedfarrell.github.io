@@ -1,4 +1,6 @@
-@media (min-width:32.5em) {
+@media only screen and (min-width: 560px) {
+
+nav li {float: left; width: 25}
 img{
     width:200px;
     
@@ -12,4 +14,4 @@ img{
    
     
 
-}
+}/*end of media query*/
