@@ -9,7 +9,11 @@
 
 
 
-
+div.news {
+    clear: both;
+    column-count: 2;
+    column-rule: 1px;
+}
 
 
 
