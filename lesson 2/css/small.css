@@ -3,6 +3,7 @@
 body {
     font-family: "Oswald", Helvetica, sans-serif ;
     font-size: 16px;
+    padding: 1rem 2%;
 }
 
 header {
@@ -15,9 +16,7 @@ header {
 }
 img {
     width:250px;
-
-    padding:5px;
-    
+    padding:5px;    
     border-radius:10px;
 }
 footer {
@@ -37,6 +36,13 @@ header h1 {
     margin: 0;
     padding: 1rem 2%;
 }
+
+#body {
+    width: 250px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
 
 
 
