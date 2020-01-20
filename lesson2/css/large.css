@@ -1,9 +1,7 @@
 @media only screen and  (min-width: 1028px){
 header, footer, main {max-width: 75rem; margin: auto;}
 
-main{
-    grid-template: 1fr 1fr 1fr;
-}
+
 
 
 
@@ -11,7 +9,7 @@ main{
 main img {width: 31%;}
 
 
-
+div.news{column-count: 3;}
 
 
 

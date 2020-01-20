@@ -3,12 +3,8 @@
 
 
 
-main {
-    grid-template: 1fr 1fr;
-}
-section:nth-child(3){
-    grid-column: span 2;
-}
+
+
 
 
 img {
@@ -27,7 +23,9 @@ main img {
 
 
 div.news {
-    
+    clear: both;
+    column-count: 2;
+    column-rule: 1px solid #ddd;
 }
 
 
