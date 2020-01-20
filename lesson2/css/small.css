@@ -39,8 +39,12 @@ header h1 {
 
 #body {
     width: 250px;
-    padding: 5px;
+    padding: 1rem 2%;
     border-radius: 10px;
+}
+h2, h3 {
+    text-align: center;
+    padding: 1rem 2%;
 }
 
 
