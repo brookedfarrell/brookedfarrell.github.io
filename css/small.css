@@ -29,7 +29,7 @@ body {
  nav a{
      display: block;
      padding: .8rem 0;
-     text-align: center;
+    
      text-decoration: none;
  }
  footer {
