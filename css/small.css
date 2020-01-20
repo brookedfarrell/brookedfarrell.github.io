@@ -25,11 +25,11 @@ body {
      margin: 0;
  }
  nav ul {margin: 0; padding: 0;}
-
+ nav li{list-style-type: none;}
  nav a{
-
+   
      padding: .8rem 0;
-    
+     text-align: center;
      text-decoration: none;
  }
  footer {
