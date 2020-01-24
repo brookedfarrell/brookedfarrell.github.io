@@ -4,6 +4,7 @@ header, footer, main {max-width: 75rem; margin: auto;}
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem 2%;
 
 }
 
