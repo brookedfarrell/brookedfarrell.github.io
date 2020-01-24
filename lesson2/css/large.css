@@ -9,7 +9,7 @@ header, footer, main {max-width: 75rem; margin: auto;}
 
 section:nth-child(3){
     grid-column: span 1;
-
+}
 
 img {
     width: 31%;
