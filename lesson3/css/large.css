@@ -12,7 +12,7 @@ nav li {
   display: inline-block;
   
   }
-nav a {padding: .5rem 1rem;
+nav a {/*padding: .5rem 1rem;*/
   display: flex;
 	flex-flow: column;	
 	justify-content: center;
