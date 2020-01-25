@@ -7,18 +7,15 @@
             }
 nav li {width: auto;}
 nav a {padding: .5rem 1rem;
-
   display: flex;
-	flex-flow: column;
-	
+	flex-flow: column;	
 	justify-content: center;
-        
         color: black;
         text-align: center;
         text-decoration: none; /*remove underline for list items*/}
 
 img {
     width: 75%;
-    padding: 5px;
+    
 }
 }
