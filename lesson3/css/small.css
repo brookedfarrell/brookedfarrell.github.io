@@ -51,5 +51,5 @@ nav a:hover {background-color: #d7bcc8;}
  }
  img {
      width: 25%;
-     position: center;
+     position: relative;
  }
