@@ -41,6 +41,16 @@ nav a{ /*anchor*/
     text-decoration: none; /*remove underline for list items*/
 }
 nav a:hover {background-color: #d7bcc8;}
+#table {
+    width: 75%;
+    display: table;
+}
+.table-cell{
+    display: table-cell;
+    padding: 10px;
+    text-align: justify;
+    border: 1px solid black;
+}
 
      
  footer {
