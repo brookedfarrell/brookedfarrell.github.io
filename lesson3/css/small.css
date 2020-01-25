@@ -9,18 +9,32 @@ body {
  header {
      text-align: center;
      background-color: #2978A0;
-     color: white;
+     color: #ffffff;
      font-family: "Oswald", Helvetica, sans-serif;
      padding: 1rem 2%;
      
  }
  
  h1 {
-    font-size: 40px;
+    font-size: 30px;
+    color: #2978a0;
 }
 h2 {
-    font-size: 30px;
+    font-size: 25px;
+    color: #2978a0
 }
+h3 {
+  font-size: 20px;
+  color: #2978a0
+}
+site-header {
+  font-size: 40px;
+}
+p {
+  font-size: 16px;
+  color: #000000;
+}
+
  header h1{
      margin: 0;
  }
@@ -41,23 +55,43 @@ nav a{ /*anchor*/
     text-decoration: none; /*remove underline for list items*/
 }
 nav a:hover {background-color: #d7bcc8;}
-#table {
-    width: 75%;
+table {
+    position: center;
     display: table;
 }
 .table-cell{
+    width: 160px;
+    height: 75px;
     display: table-cell;
     padding: 10px;
-    text-align: justify;
+    text-align: center;
     border: 1px solid black;
+ 
 }
+#sample1 {
+  color: #ffffff;
+  background-color: #2978a0;
+  font-size: 40px;
+}
+#sample2 {
+    color: #000000;
+    background-color: #639cb9;
+  font-size: 30px;
+}
+#sample3 {
+  color: #ffffff;
+  background-color: #2978a0;
+  font-size: 20px;
+}
+
 
      
  footer {
     background-color: #2978A0;
-    color: white;
+    color: #ffffff;
     font-family:"Poppins", Gadget, sans-serif;
     padding: 1rem 2%;
+    font-size: 20px;
     text-align: center;
 
  }
