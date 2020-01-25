@@ -29,13 +29,10 @@ nav ul {margin: 0; padding: 0;}
 nav li {list-style-type: none;} /*remove bullets*/
 nav li.active{background-color: #333;}
 nav a{ /*anchor*/
-    display: flex;
-	flex-flow: column;
-	align-items: center;
-	justify-content: center;
+    display: block;
     padding: .8rem 0; /* 44 min height per apple*/
     color: black;
-    
+    text-align: center;
     text-decoration: none; /*remove underline for list items*/
 }
 nav a:hover {background-color: #d7bcc8;}

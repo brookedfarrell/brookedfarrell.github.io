@@ -7,7 +7,11 @@ nav ul {
     }
 nav li {width: auto;}
 nav a {padding: .5rem 1rem;
-  
+
+  display: flex;
+	flex-flow: column;
+	
+	justify-content: center;
         
         color: black;
         text-align: center;
