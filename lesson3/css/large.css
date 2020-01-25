@@ -10,7 +10,7 @@
 nav li {
   width: auto;
   display: inline-block;
-  padding-left: 125px;
+  
   }
 nav a {padding: .5rem 1rem;
   display: flex;
