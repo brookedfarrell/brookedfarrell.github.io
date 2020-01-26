@@ -3,10 +3,10 @@
     
 
 
-        nav ul { 
-            /*display: flex;*/
-            text-align: center;
-            }
+ nav ul { 
+    /*display: flex;*/
+    text-align: center;
+}
 nav li {
   width: auto;
   display: inline-block;
@@ -14,11 +14,10 @@ nav li {
   }
 nav a {
     padding: .5rem 1rem;
-  display: flex;
-	
-        color: black;
-        text-align: center;
-        text-decoration: none; /*remove underline for list items*/}
+    display: flex;	
+    color: black;
+    text-align: center;
+     text-decoration: none; /*remove underline for list items*/}
 
 img {
     width: 75%;
