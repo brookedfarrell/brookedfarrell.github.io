@@ -26,6 +26,10 @@ div.news {
     column-count: 2;
     column-rule: 1px solid #ddd;
 }
+section {
+    margin: 0;
+    padding: 1rem 2%
+}
 
    
    
