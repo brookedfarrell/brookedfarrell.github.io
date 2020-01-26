@@ -89,9 +89,14 @@ nav a:hover {background-color: #d7bcc8;}
  }
  img {
      width: 75%;
-     margin-right: auto;
-     margin-left: auto;
-     
+    
+ }
+ .center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    
  }
  #target {
     text-align: center;
