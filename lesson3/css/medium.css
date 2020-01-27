@@ -20,14 +20,18 @@ img {
     align-items: center;
 
 }
+	main {
+		grid-template-columns: 1fr 1fr;
+	}
 
-main {
-    grid-template-columns: 1fr 1fr;
+div.news {
+    clear: both;
+    column-count: 2;
+    column-rule: 1px solid #ddd;
 }
-article:nth-child(3) {
+section:nth-child(3){
     grid-column: span 2;
 }
-
 
 
 section {
