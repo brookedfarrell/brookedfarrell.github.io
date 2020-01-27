@@ -7,8 +7,8 @@ body {
     background-color: white;
 }
  header {
-    padding: 1rem 2%;
-    text-align: left;
+     padding: 1rem 2%;
+     text-align: left;
      font-size: 40px;
      background-color: #2978A0;
      color: #ffffff;
@@ -24,7 +24,7 @@ body {
 
  }
  
- h1 {
+h1 {
     font-size: 30px;
   
 }
@@ -40,13 +40,18 @@ h3 {
 
  header h1{
      margin: 0;
+     padding: 1rem 2%;
  }
  header h2{
      margin: 0;
+     padding: 1rem 2%;
      
  }
 
-nav {background-color: #639CB9;}
+nav {
+    background-color: #639CB9;
+    font-size: 30px;
+}
 nav ul {margin: 0; padding: 0;}
 nav li {list-style-type: none;} /*remove bullets*/
 nav li.active{background-color: #333;}
@@ -57,25 +62,9 @@ nav a{ /*anchor*/
     text-align: center;
     text-decoration: none; /*remove underline for list items*/
 }
-nav a:hover {background-color: #d7bcc8;}
-/*table {
-    position: center;
-    display: table;
-}
-.table-cell{
-    width: 160px;
-    height: 75px;
-    display: table-cell;
-    padding: 10px;
-    text-align: center;
-    border: 1px solid black;
+nav a:hover {background-color: #d7bcc8;}     
  
-}*/
-
-
-
-     
- footer {
+footer {
     background-color: #2978A0;
     color: #ffffff;
     font-family:"Poppins", Gadget, sans-serif;
@@ -85,7 +74,7 @@ nav a:hover {background-color: #d7bcc8;}
 
  }
  #href {
-     color: white;
+     color: #ffffff;
  }
  img {
      width: 75%;
@@ -98,6 +87,6 @@ nav a:hover {background-color: #d7bcc8;}
     width: 50%;
     
  }
- #target {
+ .target {
     text-align: center;
  }
