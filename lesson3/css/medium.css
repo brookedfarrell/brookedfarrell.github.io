@@ -12,7 +12,7 @@ nav a {
     padding: 1rem 1rem;
     display: flex;
     color: black;
-    text-align: center;
+    
     text-decoration: none; /*remove underline for list items*/}
 
 img {
