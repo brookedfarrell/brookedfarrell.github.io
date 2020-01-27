@@ -1,7 +1,7 @@
 * {-mox-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
 
 body {
-    font-family: "Oswald", Helvetica, sans-serif;
+    font-family: "Poppins", Gadget, sans-serif;
     color: black;
     font-size: 16px;
     background-color: white;
@@ -50,6 +50,7 @@ h3 {
 
 nav {
     background-color: #639CB9;
+    font-family: "Oswald", Helvetica, sans-serif;
     font-size: 30px;
 }
 nav ul {margin: 0; padding: 0;}
@@ -67,7 +68,7 @@ nav a:hover {background-color: #d7bcc8;}
 footer {
     background-color: #2978A0;
     color: #ffffff;
-    font-family:"Poppins", Gadget, sans-serif;
+    font-family:"Oswald", Helvetica, sans-serif;
     padding: 1rem 2%;
     font-size: 20px;
     text-align: center;
