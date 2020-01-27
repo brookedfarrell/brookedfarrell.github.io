@@ -21,14 +21,13 @@ img {
 
 }
 
-div.news {
-    clear: both;
-    column-count: 2;
-    column-rule: 1px solid #ddd;
+main {
+    grid-template-columns: 1fr 1fr;
 }
-section:nth-child(3){
+article:nth-child(3) {
     grid-column: span 2;
 }
+
 
 
 section {

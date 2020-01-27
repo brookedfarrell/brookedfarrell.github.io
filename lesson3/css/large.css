@@ -24,5 +24,6 @@ img {
     align-items: center;
     
 }
-div.news {column-count: 3;}
+main {
+    grid-template-columns: 1fr 1fr 1fr;
 }
