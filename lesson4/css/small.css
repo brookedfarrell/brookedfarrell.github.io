@@ -75,10 +75,9 @@ footer {
  #href {
      color: #ffffff;
  }
- img {
-     width: 75%;
-     margin: 10px;
-    
+ #c1 {
+     position: relative;
+
  }
  .center {
     display: block;
@@ -90,23 +89,5 @@ footer {
  .target {
     text-align: center;
  }
- #container1 {
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
- }
- #container2 {
-     height: 200px;
-     display: flex;
-     align-items: center;
-     justify-content: center;
- }
- #container3 {
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
- }
  
