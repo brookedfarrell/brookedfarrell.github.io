@@ -75,9 +75,13 @@ footer {
  #href {
      color: #ffffff;
  }
- #c1 {
-     position: relative;
-
+ .wrapper {
+     padding: 10px;
+ }
+ .box {
+     float: left;
+     margin: 15px;
+     text-align: center;
  }
  .center {
     display: block;
