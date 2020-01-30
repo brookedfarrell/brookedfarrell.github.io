@@ -97,4 +97,16 @@ footer {
     justify-content: center;
 
  }
+ #container2 {
+     height: 200px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ #container3 {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
  
