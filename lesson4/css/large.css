@@ -1,15 +1,7 @@
 @media only screen and  (min-width: 1028px){
     header, footer, main {max-width: 75rem; margin: auto;}
 
-    h1 {
-        font-size: 30px;
-    }
-    h2 {
-        font-size: 25px;
-    }
-    h3 {
-        font-size: 20px;
-    }
+    
     nav button {display: none;}
     nav ul.hide {display: block;}
     nav ul {
