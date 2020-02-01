@@ -76,8 +76,10 @@ footer {
      color: #ffffff;
  }
  .wrapper {
-     padding: 10px;
-     border: 2px solid #000000;
+    margin: 5px; 
+    padding: 10px;
+     border: 2px dashed #000000;
+     text-align: center;
 
  }
  .box {
@@ -94,6 +96,10 @@ footer {
  }
  .target {
     text-align: center;
+ }
+ .active {
+     text-decoration: underline;
+     color: #2978A0;
  }
 
  
