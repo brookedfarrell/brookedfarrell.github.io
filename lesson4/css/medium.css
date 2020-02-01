@@ -12,13 +12,15 @@
     }
     nav {
         font-size: 25px;
+        text-align: justify;
     }
     nav ul {
         display: flex;
         text-align: center;
+      
     }
     nav li {
-        flex: 1 100%;
+        flex: 1 1 100%;
         width: auto;
         display: inline-block;
 
