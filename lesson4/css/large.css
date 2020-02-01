@@ -10,13 +10,18 @@
     h3 {
         font-size: 20px;
     }
-    nav {
-        font-size: 30px;
-        
+    nav button {display: none;}
+    nav ul.hide {display: block;}
+    nav ul {
+        margin-left: 2%;
     }
-    nav a {
-        padding: .5rem 1 rem;
-       
+    nav ul li {
+        float: left;
+    }
+    nav ul li a {
+        padding: .6rem 1rem;
+        border: none;
+        
     }
     
 }

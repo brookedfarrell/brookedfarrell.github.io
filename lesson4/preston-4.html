@@ -3,7 +3,8 @@
     <head>
         <meta charset="utf-8">
         
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <meta name="author" content= "Brooke Farrell">
         <link href="https://fonts.googleapis.com/css?family=Oswald|Poppins&display=swap" rel="stylesheet">
         <link href="css/normalize.css" rel="stylesheet" >
         <link href="css/small.css" rel="stylesheet" >
@@ -15,10 +16,11 @@
           
               <header>Wise to Weather<img id= "logo" src= "images/logo.png" alt= "logo"></header>
                 <main>
-                  <nav class= "navigation responsive">
-                    <ul>                     
+                  <nav class= "clearfix">
+                    <button onclick= "toggleMenu()">&#9776;</button>
+                    <ul id= "primaryNav" class= "hide">                     
                         <li><a href = "index.html">Home</a></li> 
-                        <li><a href = "Preston">Preston</a></li>
+                        <li class= "active"><a href = "Preston">Preston</a></li>
                         <li><a href = "#">Soda Springs</a></li>
                         <li><a href = "#">Fish Haven</a></li>
                         <li><a href = "#">Storm Center</a></li>                                      
@@ -59,5 +61,6 @@
                           document.write("Last Modified: " + document.lastModified + "");
                           </script>
                 </footer> 
+                <script src= "js/scripts.js"></script>
       </body>
 </html>
