@@ -1,0 +1,150 @@
+@media only screen and  (min-width: 560px){
+   header{
+   width: auto;
+   }
+   nav {
+      display: flex;
+      background-color: #639CB9;
+      font-family: "Oswald", Helvetica, sans-serif;
+      font-size: 20px;
+      text-align: center;
+      
+   }
+   nav button {display: none;}
+   nav ul.hide {display: block;}
+
+
+   nav ul {
+      
+  }
+  nav ul li {
+      float: left;
+      justify-content: center;
+  }
+  nav ul li a {
+      padding: .6rem 1rem;
+      border: none;
+      
+  }
+      nav a{ /*anchor*/
+         display: block;
+         padding: .8rem 0; /* 44 min height per apple*/
+         color: #000000;
+         text-align: center;
+         text-decoration: none; /*remove underline for list items*/
+  }
+      nav li.active a {background-color: #d7bcc8;}
+  
+      nav ul li a:hover {background-color: #d7bcc8;}  
+  
+  
+ .herodiv{  
+   margin: auto;
+   position: relative;
+   
+   box-shadow: 0 0 30px #639CB9;
+  
+    
+ }
+ .weatherpic {
+   
+   
+   margin-left: auto;
+   margin-right: auto;
+   /*border: 1px solid black;*/
+ }
+     
+    
+ 
+   .weathersummary {
+      position: absolute;
+      padding: 1rem;
+      top: 50px;
+      left: 50px;
+      background: radial-gradient(white, #639CB9);
+      border: 1px solid black;
+      box-shadow: 0 0 30px white;
+      opacity: .8;
+   }
+
+
+ .forecast {
+    display: block;
+    text-align: center;
+ }
+ 
+   .table{
+      font-size: 20px;
+      padding: 1rem;
+      margin: 0 auto;
+      table-layout: fixed;
+      width: 300px;
+      height: 75px; 
+      border-collapse: collapse;
+      border: 1px solid black;
+      box-shadow: 0 0 30px #639CB9;
+  
+   
+   }
+      thead {
+   
+         background-color: #639CB9;
+         border: 1px solid black;
+         padding: 5px;
+      }
+
+      .cell {
+         border: 1px solid black;
+      }
+#article {
+   width: 75%;
+   margin: 0 auto;
+   padding: 25px;
+
+}
+#snow{
+   
+   float: right;
+   width: 45%;
+
+}
+.wrapper2{
+   width: 75%;
+   margin-right: auto;
+   margin-left: auto;
+   display: flex;   
+   
+   
+   border: 1px solid black;
+    
+}
+.leftcol{
+   max-width: 48%;
+   margin: auto;
+   flex: 1 0 15em;
+   padding: 10px;
+  
+
+} 
+.weathermap{
+   display: block;
+   width: 75%;
+   border: 1px solid black;
+   margin: 1rem;
+}
+.rightcol{
+   max-width: 48%;
+   flex: 1 0 15em;
+   margin: auto;
+   padding: 10px;
+   
+   text-align: center;
+   text-justify: center;
+ }
+.sm{
+   height: 25%;
+   padding: 10px;
+
+}
+
+}

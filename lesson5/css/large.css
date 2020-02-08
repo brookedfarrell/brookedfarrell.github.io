@@ -1,0 +1,52 @@
+@media only screen and  (min-width: 1028px){
+    /*header, footer, main {max-width: 75rem; margin: auto;}*/
+
+    nav {
+        display: flex;
+        
+        background-color: #639CB9;
+        text-align: center;
+        align-items: center;
+        /*justify-content: center space-evenly;*/
+    }
+    nav button {display: none;}
+    nav ul.hide {display: block;}
+    nav ul {
+        
+    }
+    nav ul li {
+        float: left;
+        justify-content: center;
+    }
+    nav ul li a {
+        padding: .6rem 1rem;
+        border: none;
+        
+    }
+    section{
+        padding: 3rem;
+    }
+.herodiv{
+    width: 75%;
+}
+
+    .table{
+        padding: 1rem;
+        margin: 0 auto;
+        table-layout: fixed;
+        width: 700px;
+        height: 200px; 
+        border-collapse: collapse;
+        border: 1px solid black;
+       
+        
+     }
+#snow{
+    float: right;
+}
+    
+.sm{
+    height: 40%;
+    padding: 10px;
+}
+}

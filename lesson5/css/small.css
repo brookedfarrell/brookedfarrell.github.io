@@ -1,0 +1,178 @@
+* {-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+
+header {
+    padding: 1rem 2%;
+    text-align: left;
+    font-size: 40px;
+    background-color: #2978A0;
+    color: #ffffff;
+    font-family: "Oswald", Helvetica, sans-serif;
+}
+#logo {
+    width: 50px;
+    height: 50px; 
+
+}
+
+body {
+    font-family: "Poppins", Gadget, sans-serif;
+    color: black;
+    font-size: 16px;
+    background-color: white;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+  
+}
+h2 {
+    font-size: 25px;
+ 
+}
+h3 {
+  font-size: 20px;
+
+}
+
+
+ header h1{
+     margin: 0;
+     padding: 1rem 2%;
+ }
+ header h2{
+     margin: 0;
+     padding: 1rem 2%;
+     
+ }
+ nav {
+    background-color: #639CB9;
+    font-family: "Oswald", Helvetica, sans-serif;
+    font-size: 20px;
+    
+ }
+nav button {
+   
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #000000;
+
+}
+
+
+nav ul {
+    margin: 0; 
+    padding: 0;
+    list-style-type: none;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    
+    
+}
+nav a{ /*anchor*/
+    display: block;
+    padding: .8rem 0; /* 44 min height per apple*/
+    color: #000000;
+    text-align: center;
+    text-decoration: none; /*remove underline for list items*/
+}
+nav li.active a {background-color: #d7bcc8;}
+
+nav ul li a:hover {background-color: #d7bcc8;}  
+
+nav ul.hide {display:none;}   
+ 
+footer {
+    background-color: #2978A0;
+    color: #ffffff;
+    font-family:"Oswald", Helvetica, sans-serif;
+    line-height: 2rem;
+    padding: 1rem 2%;
+    font-size: 20px;
+    text-align: center;
+
+ }
+ #href {
+     color: #ffffff;
+ }
+ .wrapper {
+    margin: 5px; 
+    padding: 10px;
+    border: 1px solid #000000;
+    text-align: left;
+
+ }
+ .wrapper2 {
+     margin: 5px;
+     padding: 10px;
+     border: 1px solid #000000;
+     background-color: rgba(218, 188, 200, 0.5 );
+    
+     
+ }
+ .center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    
+ }
+ .target {
+    text-align: center;
+ }
+ .clearfix {
+     position: relative;
+    
+     
+     
+ }
+ 
+ .weatherpic{
+    width: 100%;
+
+ }
+
+ .weathersummary{
+    text-align:center;
+    top: 25px;
+    left: 50px;
+    background: radial-gradient(white, #639CB9);
+    border: 1px solid black;
+    box-shadow: 0 0 30px white;
+    opacity: .8;
+     
+     
+ }
+ .forecast {
+     display: none;
+ }
+ #title{
+     text-align: center;
+ }
+ #snow {
+     width: 100%;
+     border: 1px solid black;
+
+ }
+ 
+ .weathermap{
+     display: none;
+ }
+ .sm {
+    height: 25px;
+ }
+ #banner{
+     display: block;
+     font-size: 20px;
+    
+     background-color: yellow;
+     padding: 1rem 2%;
+     text-align: center;
+ }
+ 
+ 
