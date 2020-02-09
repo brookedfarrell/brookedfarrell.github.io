@@ -41,6 +41,9 @@
        
         
      }
+     .icon {
+         height: 25%;
+     }
 #snow{
     float: right;
 }

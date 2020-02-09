@@ -6,12 +6,20 @@ function getDate(){
     document.getElementById("date").innerHTML= x;
 }
 function showBanner(){
-    var day= new Date().getDay;
-    var banner;
-    if(day= "friday"){
-        banner.show();
-    }else{
-        banner.hide();
+    
+    var day=  getDay();
+    if (day== 5){
+       document.getElementById("banner").style.display= "none";
+    
+
     }
-    document.getElementById("banner").innerHTML = banner;
+    
+    
+}
+function showBanner(){
+var day = getDay();
+
+if( day == 5){
+    document.getElementById("banner").style.display= "show";
+}
 }
