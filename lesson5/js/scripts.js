@@ -6,13 +6,14 @@ function getDate(){
     document.getElementById("date").innerHTML= x;
 }
 function showBanner(){
+  document.getElementById("banner");
   
     var d = new Date();
-    var n = d.getDay()
+    var n = d.getDay();
     document.getElementById("banner").innerHTML = n;
-    if (n=== 5){
-      document.getElementById("banner").style.display= "block";
-    }
-    
+    if (n== 0){
+     message= "pancakes!";
+    document.getElementById("banner").innerHTML= message; }
+    document.getElementById("banner").style.display= "block";
   }
       
