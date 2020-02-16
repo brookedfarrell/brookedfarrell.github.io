@@ -50,13 +50,13 @@
    margin: auto;
    position: relative;
    
-   box-shadow: 0 0 30px #639CB9;
+   
   
     
  }
  .weatherpic {
    
-   
+   width: 50%;
    margin: auto;
    
    /*border: 1px solid black;*/

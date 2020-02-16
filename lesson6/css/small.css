@@ -131,13 +131,18 @@ footer {
      
      
  }
- 
+ .herodiv {
+     width: 100%;
+     
+ }
  .weatherpic{
     width: 100%;
+    color: red;
 
  }
 
  .weathersummary{
+    
     text-align:center;
     top: 25px;
     left: 50px;
