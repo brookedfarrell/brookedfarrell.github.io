@@ -2,8 +2,10 @@
    header{
    width: auto;
    }
-   nav {
+   
+   main nav {
       display: flex;
+      flex: 1 1 100%;
       background-color: #639CB9;
       width: 100%;
       font-family: "Oswald", Helvetica, sans-serif;
@@ -14,22 +16,22 @@
    
    
    }
-   nav button {display: none;}
-   nav ul.hide {display: block;}
+   main nav button {display: none;}
+   main nav ul.hide {display: block;}
 
 
   
-  nav ul li {
+  main nav ul li {
       float: left;
       
   }
-  nav ul li a {
+  main nav ul li a {
      
       padding: .6rem 1rem;
       border: none;
       
   }
-      nav a{ /*anchor*/
+      main nav a{ /*anchor*/
          display: block;
          padding: .8rem 0; /* 44 min height per apple*/
          color: #000000;
@@ -37,27 +39,27 @@
          text-align: center;
          text-decoration: none; /*remove underline for list items*/
   }
-      nav li.active a {
+      main nav li.active a {
          background-color: #d7bcc8;
-         color: #2978A0; 
+         color: black; 
          text-decoration: underline;;
       }
   
-      nav ul li a:hover {background-color: #d7bcc8;}  
+      main nav ul li a:hover {background-color: #d7bcc8;}  
   
   
-.herodiv{  
+.herodiv{ 
+   
+   width: 50%;  
    margin: auto;
    position: relative;
-   
    
   
     
  }
  .weatherpic {
-   
-   width: 50%;
-   margin: auto;
+   margin: 0 auto;
+   position: relative;
    
    /*border: 1px solid black;*/
  }
@@ -66,6 +68,7 @@
  
    .weathersummary {
       position: absolute;
+     
       padding: 1rem;
       top: 25px;
       left: 25px;

@@ -1,7 +1,7 @@
 @media only screen and  (min-width: 1028px){
     /*header, footer, main {max-width: 75rem; margin: auto;}*/
 
-    nav {
+    main nav {
         display: flex;
         flex: 1 1 100%;
         background-color: #639CB9;
@@ -9,15 +9,15 @@
         align-items: center;
         /*justify-content: center space-evenly;*/
     }
-    nav button {display: none;}
-    nav ul.hide {display: block;}
+    main nav button {display: none;}
+    main nav ul.hide {display: block;}
   
-    nav ul li {
+    main nav ul li {
         flex: 1 1 100%;
         float: left;
         
     }
-    nav ul li a {
+    main nav ul li a {
         padding: .6rem 1rem;
         border: none;
         
@@ -29,7 +29,11 @@
 .weatherpic{
     width:50%;
 }
-    .table{
+.weathersummary {
+    
+    left: 75px;
+}      
+table{
         padding: 1rem;
         margin: 0 auto;
         table-layout: fixed;

@@ -19,7 +19,7 @@
          
               <header>Wise to Weather<img id= "logo" src= "images/logo.png" alt= "logo"></header>
                 <main>
-                  <nav class= "clearfix">
+                    <nav class= "clearfix">
                     <button onclick= "toggleMenu()">&#9776;Menu</button>
                     <ul id= "primaryNav" class= "hide">                     
                         <li><a href = "index.html">Home</a></li> 
@@ -35,10 +35,9 @@
                     <div class= "herodiv">
                       <figure class="weatherpic">
                         
-                        <img src= "images/sunnylarge.jpeg" alt="Sun and Sky" sizes="50vw"
-                        srcset="images/sunnysmall.jpg 200w"
-                        srcset= "images/sunnymedium.jpg 500w"
-                        srcset= "images/sunnylarge.jpg 800w">
+                        <img src= "images/franklin.jpeg" alt="Sun and Sky" sizes="50vw"
+                        srcset="images/franklin200.jpg 200w,
+                        images/franklin500.jpg 500w, images/franklin800.jpg 800w">
                          
                      </figure>
                       <section class= "weathersummary">
@@ -46,11 +45,11 @@
                           <script src= "windchill.js"></script>
                         
                         <h2>Weather Summary</h2> 
-                        <p>Currently: Rainy</p>                   
+                        <span>Currently: Rainy</span>                  
                         <p>Temperature:<span class= "temp"> 46</span></p>
                         <p>Humidity: 100%</p>
                         <p>Precipitation: 2"</p>
-                        <P>Wind Speed: <span class= "windSpeed"> 15 mph</span></p>
+                        <P>Wind Speed:<span class= "windSpeed"> 15 mph</span></p>
                         </div>
                         </section>
                     </div>
