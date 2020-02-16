@@ -3,7 +3,7 @@
 
     nav {
         display: flex;
-        
+        flex: 1 1 100%;
         background-color: #639CB9;
         text-align: center;
         align-items: center;
@@ -11,12 +11,11 @@
     }
     nav button {display: none;}
     nav ul.hide {display: block;}
-    nav ul {
-        
-    }
+  
     nav ul li {
+        flex: 1 1 100%;
         float: left;
-        justify-content: center;
+        
     }
     nav ul li a {
         padding: .6rem 1rem;
@@ -26,10 +25,10 @@
     section{
         padding: 3rem;
     }
-.herodiv{
-    width: 75%;
-}
 
+.weatherpic{
+    width:100%;
+}
     .table{
         padding: 1rem;
         margin: 0 auto;
@@ -40,6 +39,9 @@
         border: 1px solid black;
        
         
+     }
+     .icon {
+         height: 25%;
      }
 #snow{
     float: right;

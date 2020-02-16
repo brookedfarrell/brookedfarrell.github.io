@@ -81,10 +81,7 @@ nav a{ /*anchor*/
     text-align: center;
     text-decoration: none; /*remove underline for list items*/
 }
-nav li.active a {
-    background-color: #d7bcc8;
-    color: #2978A0; 
-    text-decoration: underline;}
+nav li.active a {background-color: #d7bcc8;}
 
 nav ul li a:hover {background-color: #d7bcc8;}  
 
@@ -170,12 +167,13 @@ footer {
     height: 25px;
  }
  #banner{
-     display: block;
+     display: none;
      font-size: 20px;
-    
+     font-weight: bold;    
      background-color: yellow;
      padding: 1rem 2%;
      text-align: center;
  }
+ 
  
  

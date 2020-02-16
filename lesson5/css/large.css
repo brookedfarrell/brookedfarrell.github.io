@@ -11,9 +11,7 @@
     }
     nav button {display: none;}
     nav ul.hide {display: block;}
-    nav ul {
-        
-    }
+  
     nav ul li {
         float: left;
         justify-content: center;
