@@ -40,16 +40,15 @@
                         images/franklin500.jpg 500w, images/franklin800.jpg 800w">
                          
                      </figure>
-                      <section class= "weathersummary">
-                        <div id= "chill" onload= "windChill()">
-                          <script src= "windchill.js"></script>
+                      <section class= "weathersummary">                        
                         
                         <h2>Weather Summary</h2> 
-                        <span>Currently: Rainy</span>                  
-                        <p>Temperature:<span class= "temp"> 46</span></p>
+                        <p>Currently: Rainy</p>
+                        <p>Temperature:<span id= "temp"> 46</span> &#176;F</p>
                         <p>Humidity: 100%</p>
                         <p>Precipitation: 2"</p>
-                        <P>Wind Speed:<span class= "windSpeed"> 15 mph</span></p>
+                        <P>Wind Speed:<span id= "windSpeed"> 15</span> mph</p>
+                      
                         </div>
                         </section>
                     </div>
@@ -135,5 +134,17 @@
                           </script>
                 </footer> 
                 <script src= "js/scripts.js"></script>
+                <script src= "js/windchill.js"></script>
+                <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+                <script>
+                  WebFont.load({
+  google: {
+    families: [
+       'Poppins',
+       'Oswald'
+    ]
+  }
+});
+                </script>
       </body>
 </html>
