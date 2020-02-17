@@ -7,10 +7,10 @@
     windchill= Math.round(windchill);
     
     if (temp<51 && windSpeed >3) {
-        document.getElementById("windchill").innerHTML= "Wind Chill Temperature: "+windchill + "F";
+        document.getElementById("windchill").textContent= "Wind Chill Temperature: "+windchill + "F";
     }
     else
-    {document.getElementById("windchill").innerHTML = "Wind Chill Temperature: N/A";
+    {document.getElementById("windchill").textContent = "Wind Chill Temperature: N/A";
     
     }
     
