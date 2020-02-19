@@ -19,7 +19,7 @@
          
               <header>Wise to Weather<img id= "logo" src= "images/logo.png" alt= "logo"></header>
                 <main>
-                    <nav class= "clearfix">
+                    <nav class= "clearfix" class= "navigation">
                     <button onclick= "toggleMenu()">&#9776;Menu</button>
                     <ul id= "primaryNav" class= "hide">                     
                         <li><a href = "index.html">Home</a></li> 
@@ -44,7 +44,7 @@
                         
                         <h3>Weather Summary</h3> 
                         <p>Currently: Rainy</p>
-                        <p>Temperature:<span id= "temp"> 46</span> &#176;F</p>
+                        <p>Temperature:<span id= "temp"> 46</span>;F</p>
                         <p>Humidity: 100%</p>
                         <p>Precipitation: 2"</p>
                         <P>Wind Speed:<span id= "windSpeed"> 15</span> mph</p>
@@ -56,28 +56,35 @@
                         <section class= "forecast">
                           
                         <h2>5 Day Forecast</h2>
-                        <table class="table">
-                          <thead>
-                            <tr>
-                            <th>Mon</th>
+                        <div class = "flex">
+                          <div class= "col">
+                            <span class = "label">Mon</span>
+                            <img src= "images/rain2.png"> 
+                            <span class= "data">Rainy</span>
+                          </div>
+                            <div class= "col">
+                              <span class= "label"> Tues</span>
+                              <img src= "images/rain2.png">
+                              <span class= "data">Rainy</span>
+                            </div>
+                            <div class= "col">
+                              <span class= "label">Wed</span>
+                              <img src= "images/rain2.png">
+                              <span class= "data">Rainy</span>
+                            </div>
+                            <div class= "col">
+                              <span class= "label">Thurs</span>
+                              <img src= "images/rain2.png">
+                              <span class= "data">Rainy</span>
+                          </div>
+                            <div class= "col">
+                              <span class= "label">Fri</span>
+                              <img src= "images/rain2.png">
+                              <span class= "data">Rainy</span>
+                          </div>
+                          
                             
-                            <th>Tue</th>
-                            <th>Wed</th>
-                            <th>Thur</th>
-                            <th>FRI</th>
-                          </tr>
-                          </thead>                          
-                          <tbody>
-                            <tr>
-                              <th class= "cell"><img  class= icon src= "images/rain2.png" alt= "rain"></th>
-                              <th class= "cell"><img  class= icon src= "images/rain2.png" alt= "rain"></th>
-                              <th class= "cell"><img  class= icon src= "images/rain2.png" alt= "rain"></th>
-                              <th class= "cell"><img  class= icon src= "images/rain2.png" alt= "rain"></th>
-                              <th class= "cell"><img  class= icon src= "images/rain2.png" alt= "rain"></th>
-                            </tr>
-                          </tbody>
-                        
-                        </table>
+                          </div>
                         
                                              
                         </section><br><br>
@@ -119,9 +126,9 @@
                               <p>	&#9743;
                                 801.390.9226</p>
                         
-                              <img class= "sm" src= "images/facebook.png" alt= "facebook">            
-                              <img class= "sm" src= "images/instagram.png" alt= "instagram">
-                              <img class= "sm" src= "images/twitter.png" alt= "twitter">
+                              <img class= "sm" src= "images/facebook.png" alt= "facebook" link= "www.facebook.com">            
+                              <img class= "sm" src= "images/instagram.png" alt= "instagram" link= "www.instagram.com">
+                              <img class= "sm" src= "images/twitter.png" alt= "twitter" link= "www.twitter.com">
                         
                             </div>                        
                           </div>

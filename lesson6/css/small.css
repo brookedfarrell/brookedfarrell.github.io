@@ -34,7 +34,9 @@ h3 {
   font-size: 20px;
 
 }
-
+p {
+    font-size: 16px;
+}
 
  header h1{
      margin: 0;
@@ -142,7 +144,8 @@ footer {
 
  .weathersummary{
    
-    text-align:center;
+    text-align: center;
+    line-height: .75;
     top: 25px;
     left: 50px;
     background: radial-gradient(white, #639CB9);
