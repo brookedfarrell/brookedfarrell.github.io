@@ -47,13 +47,13 @@ p {
      padding: 1rem 2%;
      
  }
- main nav {
+nav {
     background-color: #639CB9;
     font-family: "Oswald", Helvetica, sans-serif;
     font-size: 20px;
     
  }
-main nav button {
+nav button {
    
     margin: .2rem 2%;
     background-color: transparent;
@@ -64,30 +64,30 @@ main nav button {
 }
 
 
-main nav ul {
+nav ul {
     margin: 0; 
    
     list-style-type: none;
 }
-main nav ul li a {
+nav ul li a {
     display: block;
     
     text-decoration: none;
     
     
 }
-main nav a{ /*anchor*/
+nav a{ /*anchor*/
     display: block;
     padding: .8rem 0; /* 44 min height per apple*/
     color: #000000;
     text-align: center;
     text-decoration: none; /*remove underline for list items*/
 }
-main nav li.active a {background-color: #d7bcc8;}
+nav li.active a {background-color: #d7bcc8;}
 
-main nav ul li a:hover {background-color: #d7bcc8;}  
+nav ul li a:hover {background-color: #d7bcc8;}  
 
-main nav ul.hide {display:none;}   
+nav ul.hide {display:none;}   
  
 footer {
     background-color: #2978A0;

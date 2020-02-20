@@ -1,7 +1,7 @@
 @media only screen and  (min-width: 1028px){
     /*header, footer, main {max-width: 75rem; margin: auto;}*/
 
-    main nav {
+    nav {
         display: flex;
        
         background-color: #639CB9;
@@ -9,15 +9,15 @@
         align-items: center;
         /*justify-content: center space-evenly;*/
     }
-    main nav button {display: none;}
-    main nav ul.hide {display: block;}
+    nav button {display: none;}
+    nav ul.hide {display: block;}
   
-    main nav ul li {
+    nav ul li {
         flex: 1 1 100%;
         float: left;
         
     }
-    main nav ul li a {
+    nav ul li a {
         padding: .6rem 1rem;
         border: none;
         
