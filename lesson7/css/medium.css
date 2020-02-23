@@ -190,18 +190,20 @@ div.news {
 article:nth-child(3) {
    grid-column: span 1;
 }
+img {
+   width: 50%;
+}
 .pics{
    display: grid;
-   grid-template-columns: repeat(2, minmax(300px, 1fr));
-   grid-template-rows: repeat(5, 1fr);
+   grid-template-columns: repeat(2, minmax(200px, 1fr));
+   grid-template-rows: repeat(12, 1fr);
    grid-gap: 30px;
    
 }
 .pair{
    display: grid;
-}
-img{
-   width: 300px;
+ 
+
 }
 
 picture img[data-src]{

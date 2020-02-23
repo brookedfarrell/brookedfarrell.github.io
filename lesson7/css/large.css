@@ -73,7 +73,7 @@ article:nth-child(3) {
     box-shadow: 0 0 30px #639CB9;
 }
 img{
-    width: 400px;
+    width: 100%;
 }
 
 picture img[data-src]{
