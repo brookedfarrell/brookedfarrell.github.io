@@ -3,17 +3,97 @@
     
     <head>
         <meta charset="utf-8">
-        <meta name="portal" content="Assignment Portal">
+        <meta name="description" content="Assignment Portal">
+        
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
         <meta name="author" content= "Brooke Farrell">
         <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
         <title>Brooke Farrell</title>
-        <link rel="stylesheet" href="css/style.css">
+        
+      
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/large.css">
+        <link rel="stylesheet" href="css/small.css">       
         <link rel="stylesheet" href="css/medium.css">
-        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="stylesheet" href="css/lazy.css">
        
         <link href="https://fonts.googleapis.com/css?family=Oswald|Poppins&display=swap" rel="stylesheet">
     </head>
+    <body>
+       
+            <header>Wise to Weather<img id= "logo" src= "images/logo.png" alt= "logo"></header>
+              <main>
+                  <nav class= "clearfix" class= "navigation">
+                  <button onclick= "toggleMenu()">&#9776;Menu</button>
+                  <ul id= "primaryNav" class= "hide">                     
+                      <li><a href = "#">Home</a></li> 
+                      <li><a href = "lesson6/preston-6.html">Preston</a></li>
+                      <li><a href = "#">Soda Springs</a></li>
+                      <li><a href = "#">Fish Haven</a></li>
+                      <li><a href = "#">Storm Center</a></li>                                      
+                      <li class= "active"><a href = "#">Gallery</a></li>
+                    </ul>
+                  </nav>
+                  
+                  <h1>Gallery</h1>
+                  <div class= "pics">
+                  <figure class= "pair">
+                      <img class= "lazy" src= "https://via.placeholder.com/300/2978A0" data-src="images/stormclouds.jpg" sizes= "50vw" srcalt= "Storm Clouds">
+                      <figcaption>Storm clouds forming.</figcaption>
+                  </figure>
+                  <figure class= "pair">
+                    <img class= "lazy" src= "https://via.placeholder.com/300/2978A0" data-src="images/snowman.jpg" alt= "Snowman">
+                    <figcaption>Snowman</figcaption>
+                  </figure>
+                  <figure class= "pair">
+                    <img class= "lazy" src= "https://via.placeholder.com/300/2978A0" data-src="images/watersunset.jpg" alt= "Water Sunset">
+                    <figcaption>Sunset by the water.</figcaption>
+                  </figure>
+                  <figure class= "pair">
+                    <img class= "lazy" src= "https://via.placeholder.com/300/2978A0" data-src="images/foggyhills.jpg" alt= "Foggy Hills">
+                    <figcaption>Hills draped in fog.</figcaption>
+                  </figure>
+                  <figure class= "pair">
+                    <img class= "lazy" src= "https://via.placeholder.com/300/2978A0" data-src="images/mtnrainbow.jpg" alt= "Mountain Rainbow">
+                    <figcaption>Rainbow over the mountains.</figcaption>
+                  </figure>
+                  <figure class= "pair">
+                    <img class= "lazy" src= "https://via.placeholder.com/300/2978A0" data-src="images/pier.jpg" alt= "Pier">
+                    <figcaption>Under the pier.</figcaption>
+                  </figure>
+                  <figure class= "pair">
+                    <img class= "lazy"src= "https://via.placeholder.com/300/2978A0" data-src="images/balloons.jpg" alt= "Hot Air Balloons">
+                    <figcaption>Hot air balloons taking flight.</figcaption>
+                  </figure>
+                  <figure class= "pair">
+                    <img class= "lazy" src= "https://via.placeholder.com/300/2978A0" data-src="images/flattrees.jpg" alt= "Flattened Trees">
+                    <figcaption>Flattened trees.</figcaption>
+                  </figure>
+                  <figure class= "pair">
+                    <img class= "lazy" src= "https://via.placeholder.com/300/2978A0" data-src="images/lacrosse.jpg" alt= "LaCrosse Game">
+                    <figcaption>A game of Lacrosse</figcaption>
+                  </figure>
+                </div>
+                </main>
+                <footer>
+                       &copy; 2020 Brooke Farrell | Washington | <a id="href" href="https://www.byui.edu/online">BYUI Online Learning</a><br>
+                          <script>
+                          document.write("Last Modified: " + new Date(document.lastModified) + "");
+                          </script>
+                </footer> 
+                
+                <script src= "js/lazyload.js"></script>
+                <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+                <script>
+                  WebFont.load({
+  google: {
+    families: [
+       'Poppins',
+       'Oswald'
+    ]
+  }
+});
+                </script>
+      </body>
+</html>

@@ -2,16 +2,15 @@ h1 {
     text-align: center;
 }
 
-picture img[data-src]{
+/*picture img[data-src]{
     filter: blur(0.2em);
 }
 picture {
     filter: blur(0em);
     transition: filter 0.5s;
 }
-img {
-    display: block;
+.lazy {
+    display: grid;
     
-    margin: 15px auto;
-    box-shadow: 0 0 30px #639CB9;
-}
+    
+}*/
