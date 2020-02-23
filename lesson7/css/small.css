@@ -136,7 +136,8 @@ figcaption{
     padding: 10px;
 }
 .pics{
-    display: block;  
+    display: block;
+    padding: 0;  
 }
 
 img {
