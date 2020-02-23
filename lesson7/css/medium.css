@@ -190,8 +190,7 @@ div.news {
 article:nth-child(3) {
    grid-column: span 1;
 }
-img {
-   width: 50%;
+
 }
 .pics{
    display: grid;
@@ -202,7 +201,7 @@ img {
 }
 .pair{
    display: grid;
- 
+  
 
 }
 
@@ -219,4 +218,3 @@ picture {
    
 }    
 
-}
