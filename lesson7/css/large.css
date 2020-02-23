@@ -60,7 +60,7 @@ article:nth-child(3) {
 
 
 .pics{
-    grid-template-columns: repeat( 3, 400px);
+    grid-template-columns:repeat(3, minmax(300px, 1fr));
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 40px;
     
@@ -69,7 +69,7 @@ article:nth-child(3) {
     text-align: center;
     width: 400px;
 }
-:hover{
+.pair:hover{
     box-shadow: 0 0 30px #639CB9;
 }
 img{
