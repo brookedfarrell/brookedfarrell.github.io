@@ -194,27 +194,17 @@ article:nth-child(3) {
 }
 .pics{
    display: grid;
-   grid-template-columns: repeat(2, minmax(300px, 1fr));
-   grid-template-rows: repeat(12, 1fr);
+   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+   
    grid-gap: 30px;
    
 }
 .pair{
    display: grid;
   
+  
 
 }
 
-picture img[data-src]{
-   filter: blur(0.2em);
-}
-picture {
-   filter: blur(0em);
-   transition: filter 0.5s;
-}
-.lazy {
-   display: grid;
-   
-   
-}    
+
 

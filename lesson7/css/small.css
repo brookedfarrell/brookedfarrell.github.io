@@ -136,27 +136,16 @@ figcaption{
     padding: 10px;
 }
 .pics{
-    display: block;
+    display: block;    
     padding: 0;  
 }
+.pair{
+    display: block;
+}
 
-img {
-    width: 50%;
-}
  
  
-picture img[data-src]{
-    filter: blur(0.2em);
-}
-picture {
-    filter: blur(0em);
-    transition: filter 0.5s;
-}
-.lazy {
-    display: grid;
-    
-    
-}    
+
  
  
  
