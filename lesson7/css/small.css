@@ -142,6 +142,9 @@ figcaption{
 .pair{
     display: block;
 }
+img {
+    width: 50%;
+}
 
  
  
