@@ -1,17 +1,17 @@
 
 table{
-    margin: 0 auto;
+    margin: 50px auto;
     padding: 15px;
     font-family: "Ubuntu", sans-serif;
-    box-shadow: 0 0 30px;
+    box-shadow: 5px 5px 10px -5px;
       
 }
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid #e7f0ed;
     border-collapse: collapse;
     padding: 15px;
     
-}
+} 
 
 thead tr th {
     
@@ -31,6 +31,9 @@ tr {
 }
 tr:nth-child(even) {
    background-color: #e7f0ed;
+}
+tr:nth-child(6){
+    font-style: italic;
 }
 
 tfoot th {
