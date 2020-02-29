@@ -207,6 +207,7 @@ form fieldset {
  .flexly {
      display: flex;
      align-items: center;
+     border: none;
     
  }
 
