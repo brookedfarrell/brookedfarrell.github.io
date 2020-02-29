@@ -201,9 +201,9 @@ article:nth-child(3) {
 }
 .pair{
    display: grid;
-}
-.pair:hover{
-   box-shadow: none;
+  
+  
+
 }
 
 

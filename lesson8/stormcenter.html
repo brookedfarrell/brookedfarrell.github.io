@@ -23,33 +23,74 @@
                     <button onclick= "toggleMenu()">&#9776;Menu</button>
                     <ul id= "primaryNav" class= "hide">                     
                         <li><a href = "index.html">Home</a></li> 
-                        <li class= "active"><a href = "preston-7.html">Preston</a></li>
+                        <li><a href = "preston-7.html">Preston</a></li>
                         <li><a href = "#">Soda Springs</a></li>
                         <li><a href = "#">Fish Haven</a></li>
-                        <li><a href = "stormcenter.html">Storm Center</a></li>                                      
+                        <li class= "active"><a href = "stormcenter.html">Storm Center</a></li>                                      
                         <li><a href = "gallery-7.html">Gallery</a></li>
                       </ul>
                     </nav>
                     
-                    <h1>Preston</h1>
+                    <h1>Storm Center</h1>
+                    <form method= "get" action= "thanks.html">
+                        <fieldset>
+                        <legend>Who Am I?</legend>
+                        <label class= "top">Full Name*<input type= "text" name= "fname" minlength= "5" required></label>
+                        
+             
+                        <label class= "top">Email<input type= "email" name= "email" placeholder= "someone@email.com" required></label>
+                        <label class= "top">Phone<input type= "tel" name= "phone" placeholder= "1235551234" required></label>
+                        <label class= "top">Zip Code<input type= "number" name= "zipcode" pattern= "(\d{5}([\-]\d{4})?)" required></label>
+                    </fieldset>
+                    <fieldset>
+                      <legend>My Storm</legend>
+                        <label class= "top">Storm Date<input type= "date"></label>
+                        <label class= "top">Storm Type
+                          <select name= "type">
+                        <datalist class= "storms">
+                          <option value= "Select Storm Type">Select Storm  &#9662;</option>
+                          <option value= "Flash Flood">Flash Flood</option>
+                          <option value= "Hail">Hail</option>
+                          <option value= "Hurricane">Hurricane</option>
+                          <option value= "Thunderstorm">Thunderstorm</option>
+                          <option value= "Tornado">Tornado</option>
+                        </datalist>
+                      </select>
+                      </label>
+                        <label class= "top flexly">Storm Severity &nbsp;&nbsp;&nbsp;<input type= "range" id= "rating" value= "5" min= "1" max= "10" step= "1" list= "tickmarks" oninput= "adjustRating(this.value)" onchange= "adjustRating(this.value)">
+                        <span id= "ratingvalue">5</span>
+                      </label>
+                      <datalist class= "tickmarks">
+                        <option value= "1">1</option>
+                        <option value= "2">2</option>
+                        <option value= "3">3</option>
+                        <option value= "4">4</option>
+                        <option value= "5">5</option>
+                        <option value= "6">6</option>
+                        <option value= "7">7</option>
+                        <option value= "8">8</option>
+                        <option value= "9">9</option>
+                        <option value= "10">10</option>
+                      </datalist>
+                        <label class= "top">Storm Region
+                            <select name= "region">
+                                <option value= "">Select Region &#9662;</option>
+                                <option value= "Preston">Preston</option>
+                                <option value= "Soda Springs">Soda Springs</option>
+                                <option value= "Fish Haven">Fish Haven</option>
+                            </select>
+                        </label>
+                   
+                        <div>User in Danger?</div>
+                        <label class= "sbs"><input type= "radio" name= "userindanger" value= "yes">Yes</label>
+                        <label class= "sbs"><input type= "radio"name= "userindanger" value= "maybe">Maybe</label>
+                        <label class= "sbs"><input type= "radio" name= "userindanger" value= "no">No</label>
+                        <div>Additional Information</div>
                     
-
-                        <section>
-                          <div class= "wrapper2">
-                            <div class= "leftcol">
-                            <img src= "images/weathermap.png" alt= "Map" class= "weathermap">
-                            </div>
-                            <div class= "rightcol">
-                              <h2 class= "info">Contact Information</h2>
-                              <p>&#9993; 2706 74th Dr NE<br>Marysville, WA 98270</p>
-                              <p>	&#9743;
-                                801.390.9226</p>
-                        
-                              <img class= "sm" src= "images/facebook.png" alt= "facebook">            
-                              <img class= "sm" src= "images/instagram.png" alt= "instagram">
-                              <img class= "sm" src= "images/twitter.png" alt= "twitter">
-                        
-                            </div>                        
+                        <textarea class= "addinfo"></textarea>
+                    </fieldset>
+                        <input type= "submit" value= "Report My Storm" class= "submitBtn">
+                    </form>              
                           </div>
                         </section>
                         
@@ -61,7 +102,7 @@
                           </script>
                 </footer> 
                 <script src= "js/scripts.js"></script>
-                <script src= "js/windchill.js"></script>
+                <script src= "js/rating.js"></script>
                 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
                 <script>
                   WebFont.load({
