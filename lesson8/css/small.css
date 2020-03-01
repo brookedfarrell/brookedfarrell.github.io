@@ -204,13 +204,17 @@ form fieldset {
  form label.top input:required:valid {
      border-left: green solid 6px;
  }
+
  .flexly {
      display: flex;
      align-items: center;
-     border: none;
+     padding-top: 1rem;
+     color:#2978A0 ;
+     font-size: .8rem; 
+     
     
  }
-
+ 
  #ratingvalue {
      margin: 0 15px;
      

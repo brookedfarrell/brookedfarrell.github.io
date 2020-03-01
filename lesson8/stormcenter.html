@@ -19,7 +19,7 @@
          
               <header>Wise to Weather<img id= "logo" src= "images/logo.png" alt= "logo"></header>
                 <main>
-                    <nav class= "clearfix" class= "navigation">
+                    <nav class= "clearfix navigation">
                     <button onclick= "toggleMenu()">&#9776;Menu</button>
                     <ul id= "primaryNav" class= "hide">                     
                         <li><a href = "index.html">Home</a></li> 
@@ -40,27 +40,27 @@
              
                         <label class= "top">Email<input type= "email" name= "email" placeholder= "someone@email.com" required></label>
                         <label class= "top">Phone<input type= "tel" name= "phone" placeholder= "1235551234" required></label>
-                        <label class= "top">Zip Code<input type= "number" name= "zipcode" pattern= "(\d{5}([\-]\d{4})?)" required></label>
+                        <label class= "top">Zip Code<input type= "number" name= "zipcode" required></label>
                     </fieldset>
                     <fieldset>
                       <legend>My Storm</legend>
                         <label class= "top">Storm Date<input type= "date"></label>
                         <label class= "top">Storm Type
-                          <select name= "type">
-                        <datalist class= "storms">
-                          <option value= "Select Storm Type">Select Storm  &#9662;</option>
+                          <input list= "storms" name= "storms">
+                        <datalist id= "storms">
+                          
                           <option value= "Flash Flood">Flash Flood</option>
                           <option value= "Hail">Hail</option>
                           <option value= "Hurricane">Hurricane</option>
                           <option value= "Thunderstorm">Thunderstorm</option>
                           <option value= "Tornado">Tornado</option>
                         </datalist>
-                      </select>
+                      
                       </label>
-                        <label class= "top flexly">Storm Severity &nbsp;&nbsp;&nbsp;<input type= "range" id= "rating" value= "5" min= "1" max= "10" step= "1" list= "tickmarks" oninput= "adjustRating(this.value)" onchange= "adjustRating(this.value)">
+                        <label class= "flexly">Storm Severity &nbsp;&nbsp;&nbsp;<input type= "range" id= "rating" value= "5" min= "1" max= "10" step= "1" list= "tickmarks" oninput= "adjustRating(this.value)" onchange= "adjustRating(this.value)">
                         <span id= "ratingvalue">5</span>
                       </label>
-                      <datalist class= "tickmarks">
+                      <datalist id= "tickmarks">
                         <option value= "1">1</option>
                         <option value= "2">2</option>
                         <option value= "3">3</option>
@@ -83,7 +83,7 @@
                    
                         <div>User in Danger?</div>
                         <label class= "sbs"><input type= "radio" name= "userindanger" value= "yes">Yes</label>
-                        <label class= "sbs"><input type= "radio"name= "userindanger" value= "maybe">Maybe</label>
+                        <label class= "sbs"><input type= "radio" name= "userindanger" value= "maybe">Maybe</label>
                         <label class= "sbs"><input type= "radio" name= "userindanger" value= "no">No</label>
                         <div>Additional Information</div>
                     
@@ -91,8 +91,8 @@
                     </fieldset>
                         <input type= "submit" value= "Report My Storm" class= "submitBtn">
                     </form>              
-                          </div>
-                        </section>
+                          
+                        
                         
                 </main>
                 <footer>
