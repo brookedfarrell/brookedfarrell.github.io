@@ -229,6 +229,46 @@ form fieldset {
      
      
  }
+ #banner{
+    display: none;
+    font-size: 20px;
+    font-weight: bold;    
+    background-color: yellow;
+    padding: 1rem 2%;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.cards h2 {
+    font-size: 20px;
+    text-align: center;
+}
+.cards section {
+    background-color:  rgba(218, 188, 200, 0.5 );
+   border: 1px solid black;
+   margin: 5px;
+   padding: 10px;
+}
+.cards section motto {
+    font-size: 18px;
+    text-align: center;
+   font-style: italic;
+    line-height: 1.5rem;
+    width: 100%;
+}
+.cards section year, .cards section pop, .cards section fall {
+    display: block;
+    text-align: center;
+    overflow: none;
+    white-space: nowrap;
+    padding: 10px;
+   
 
  
  

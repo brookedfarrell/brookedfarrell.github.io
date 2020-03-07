@@ -136,6 +136,15 @@
 
 }
 
+   #banner{
+      display: block;
+      font-size: 20px;
+      font-weight: bold;    
+      background-color: yellow;
+      padding: 1rem 2%;
+      text-align: center;
+  }
+
 
 .forecast {display: block;}
 
