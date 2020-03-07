@@ -1,0 +1,63 @@
+header {
+    font-family: oswald;
+    background-color: #2978A0;
+    color: white;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    
+
+}
+h2 {
+    font-family: oswald;
+    overflow: none;
+    white-space: nowrap;
+    padding: .5rem;
+    width: 100%;
+
+}
+p {
+    font-family: poppins;
+
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 5x;   
+    padding: 5px;
+    text-align: center;
+
+}
+.cards section{
+    
+    background-color: #639CB9;
+    border: 1px solid black;
+    margin: 5px;
+}
+.cards section img{
+    width: 75%;
+    height: auto;
+    box-shadow: 0 0  15px;
+    margin: 10px;
+   
+}
+.cards section bday, .cards section bplace{
+    font-family: raleway;
+    font-size: 16px;
+    display: block;
+    font-weight: bold;
+    padding: 10px;
+   
+}
+  
+
+
+
+footer{
+    background-color: #2978A0;
+    color: white;
+    font-family: oswald;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+}
