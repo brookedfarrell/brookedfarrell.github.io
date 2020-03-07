@@ -60,7 +60,7 @@ article:nth-child(3) {
 
 
 .pair{
-    grid-template-columns: repeat(3, minmax(500, 1fr));
+    grid-template-columns: repeat(3, 1fr 1fr 1fr);
     text-align: center;
    
 }

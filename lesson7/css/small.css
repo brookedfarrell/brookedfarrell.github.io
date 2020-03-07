@@ -142,9 +142,7 @@ figcaption{
 .pair{
     display: block;
 }
-.pair:hover{
-    box-shadow: none;
-}
+
 img {
     width: 50%;
 }
