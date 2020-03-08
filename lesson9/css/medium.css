@@ -210,13 +210,8 @@ article:nth-child(3) {
 }
 .pair{
    display: grid;
+  
   }
 
-.cards {
-   display: flex;
-   flex-direction: column;
-}
 
-.cards:nth-child(odd){
-   flex-direction: row-reverse;
-}
+

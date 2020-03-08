@@ -71,10 +71,3 @@ img {
     width: 100%;
 }
 
-  .cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 5px;
-    padding: 5px;
-    text-align: center;
-  }
