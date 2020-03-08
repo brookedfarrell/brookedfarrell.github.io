@@ -54,7 +54,7 @@ article:nth-child(3) {
 }
 
 .pics {
-    
+    display: grid;
     grid-gap: 40px;
 }
 
