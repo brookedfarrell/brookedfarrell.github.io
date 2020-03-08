@@ -212,12 +212,13 @@ article:nth-child(3) {
    display: grid;
   
   }
-.cards section{
+  .cards section{
    display: flex;
    flex-direction: column;
 }
 .cards section:nth-child(odd){
-   flex-direction: row row-reverse;
+   flex-direction: row-reverse;
 }
+
 
 
