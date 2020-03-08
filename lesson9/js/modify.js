@@ -1,0 +1,1 @@
+document.write("Last Modified: " + new Date(document.lastModified) + "");

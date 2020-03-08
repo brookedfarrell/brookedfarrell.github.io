@@ -9,6 +9,7 @@ fetch(requestURL)
         const prophets = jsonObject['prophets'];
     
         prophets.forEach(prophet =>  {
+            if (towns[i].name == "Fish Haven" || "Soda Springs" || "Preston")
             let card = document.createElement('section');
             let h2 = document.createElement('h2');
            
@@ -36,8 +37,10 @@ fetch(requestURL)
             
 
        
-            document.querySelector('.cards').appendChild(card);
-    });
+   
+                      document.querySelector('.cards').appendChild(card);
+   
+                    });
 });
 
 //const prophets = jsonObject['prophets'];

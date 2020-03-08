@@ -94,7 +94,7 @@ div picture {
     padding: 5px;
     margin: 0 auto;
  } 
-footer {
+footer , #footer{
     background-color: #2978A0;
     color: #ffffff;
     font-family:"Oswald", Helvetica, sans-serif;
@@ -250,7 +250,7 @@ form fieldset {
     text-align: center;
 }
 .cards section {
-    background-color:  rgba(218, 188, 200, 0.5 );
+   background-color:  rgba(218, 188, 200, 0.5 );
    border: 1px solid black;
    margin: 5px;
    padding: 10px;
@@ -276,4 +276,4 @@ form fieldset {
  
  
  
- 
+}
