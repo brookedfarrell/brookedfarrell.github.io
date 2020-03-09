@@ -4,7 +4,7 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject){
-        console.table(jsonObject);
+        //console.table(jsonObject);
         const towns= jsonObject['towns'];
 
         for (let i= 0; i < towns.length; i++ ){
@@ -26,7 +26,8 @@ fetch(requestURL)
             pop.textContent= 'Population: ' + towns[i].currentPopulation;
             fall.textContent= 'Annual Rainfall: ' + towns[i].averageRainfall + '"';
 
-          
+          img.setAttribute('src', 'images/' + towns[i].photo);
+          img.setAttribute('alt', towns[i].name);
            
             card.appendChild(h2);
             card.appendChild(motto);
