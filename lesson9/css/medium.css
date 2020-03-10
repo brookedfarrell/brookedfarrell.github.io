@@ -201,6 +201,7 @@ article:nth-child(3) {
 }
 
 }
+/*gallery*/
 .pics{
    display: grid;
    grid-template-columns: repeat(auto-fit, 1fr 1fr);
@@ -212,7 +213,7 @@ article:nth-child(3) {
    display: grid;
   
   }
- 
+
 
 
 

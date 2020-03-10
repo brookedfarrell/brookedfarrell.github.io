@@ -132,6 +132,8 @@ footer , #footer{
  .target {
     text-align: center;
  }
+
+ /*gallery*/
 figcaption{
     padding: 10px;
 }
@@ -231,19 +233,17 @@ form fieldset {
  }
  #banner{
     display: none;
-    font-size: 20px;
-    font-weight: bold;    
-    background-color: yellow;
-    padding: 1rem 2%;
-    text-align: center;
+    
 }
 
+/*home page*/
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 5px;
     padding: 5px;
     text-align: center;
+   
 }
 .cards h2 {
     font-size: 20px;
@@ -261,18 +261,20 @@ form fieldset {
     font-style: italic;
     line-height: 1.5rem;
     width: 100%;
+    
 }
 .cards section year, .cards section pop, .cards section fall {
     display: block;
     text-align: center;
     overflow: none;
     white-space: nowrap;
-    padding: 10px;
+    padding: 15px;
 }
 .cards img{
-    border: 1px solid black;
-    box-shadow: 0 0 30px;
-    padding: 10px;
+    margin-bottom: 0;
+   
+  
+
 }
 .content {
     border: 1px solid black;

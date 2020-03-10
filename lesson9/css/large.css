@@ -52,7 +52,7 @@ div.news {
 article:nth-child(3) {
     grid-column: span 1;
 }
-
+/*gallery*/
 .pics {
     display: grid;
     grid-gap: 40px;
@@ -70,3 +70,4 @@ article:nth-child(3) {
 img {
     width: 100%;
 }
+/*home page*/
