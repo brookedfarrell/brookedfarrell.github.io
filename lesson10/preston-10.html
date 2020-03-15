@@ -26,8 +26,8 @@
                         <li class= "active"><a href = "preston-7.html">Preston</a></li>
                         <li><a href = "#">Soda Springs</a></li>
                         <li><a href = "#">Fish Haven</a></li>
-                        <li><a href = "#">Storm Center</a></li>                                      
-                        <li><a href = "gallery-7.html">Gallery</a></li>
+                        <li><a href = "lesson8/stormcenter.html">Storm Center</a></li>                                      
+                        <li><a href = "lesson7/gallery-7.html">Gallery</a></li>
                       </ul>
                     </nav>
                     
@@ -38,51 +38,29 @@
                         <img src= "images/preston2.jpg" alt="Sun and Sky">
                          
                      </figure>
-                      <section class= "weathersummary">                        
+                      <section>                        
+                        <div class= "summary">Weather Summary</div>
                         
-                        <h3>Weather Summary</h3> 
-                        <p>Currently: Rainy</p>
-                        <p>Temperature:<span id= "temp"> 46</span>&#176;F</p>
-                        <p>Humidity: 100%</p>
-                        <p>Precipitation: 2"</p>
-                        <P>Wind Speed:<span id= "windSpeed"> 15</span> mph</p>
+                        
                       <p><span id= "windchill"></span></p>
                         
                         </section>
                     </div>
+                    <section>
 
-                        <section class= "forecast">
-                          
-                        <h2>5 Day Forecast</h2>
-                        <div class = "flex">
-                          <div class= "col">
-                            <span class = "label">Mon</span>
-                            <img src= "images/rain2.png" alt= "Rain"> 
-                            <span class= "data">Rainy</span>
-                          </div>
-                            <div class= "col">
-                              <span class= "label"> Tues</span>
-                              <img src= "images/rain2.png" alt= "Rain">
-                              <span class= "data">Rainy</span>
-                            </div>
-                            <div class= "col">
-                              <span class= "label">Wed</span>
-                              <img src= "images/rain2.png" alt= "Rain">
-                              <span class= "data">Rainy</span>
-                            </div>
-                            <div class= "col">
-                              <span class= "label">Thurs</span>
-                              <img src= "images/rain2.png" alt= "Rain">
-                              <span class= "data">Rainy</span>
-                          </div>
-                            <div class= "col">
-                              <span class= "label">Fri</span>
-                              <img src= "images/rain2.png" alt= "Rain">
-                              <span class= "data">Rainy</span>
-                          </div>
-                          
-                            
-                          </div>
+                        <div class= "forecast"></div>
+                      </section> 
+                        <h2 id= "fiveday">5 Day Forecast</h2>
+                       <span id="forecast">
+                         <ul>
+                          <li><span id= "forecast1"></span></li>
+                          <li><span id= "forecast2"></span></li>
+                          <li><span id= "forecast3"></span></li>
+                          <li><span id= "forecast4"></span></li>
+                          <li><span id= "forecast5"></span></li>
+                      
+                         </ul>
+                       </span>
                         
                                              
                         </section><br><br>
@@ -140,6 +118,7 @@
                           </script>
                 </footer> 
                 <script src= "js/scripts.js"></script>
+                <script src= "js/weather.js"></script>
                 <script src= "js/windchill.js"></script>
                 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
                 <script>

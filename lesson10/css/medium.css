@@ -137,7 +137,7 @@
 }
 
    #banner{
-      display: block;
+      display: none;
       font-size: 20px;
       font-weight: bold;    
       background-color: yellow;
