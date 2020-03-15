@@ -8,23 +8,29 @@ fetch (apiURL)
     const wind = jsObject['wind'];
 
     let summary= document.createElement('section');
-   
+    let h2 = document.createElement('h2');
+
+    //let currently = document.createElement('p');
     let temp = document.createElement('p');
     let humidity= document.createElement('p');
     let windSpeed = document.createElement('p');
-
     
-    temp.textContent= `Temp: ${main.temp} &deg; F`;
-    humidity.textContent = `Humidity ${main.humidity}`;
+
+    h2.textContent= `Weather Summary`;
+    //currently.textContent= `${weather.main}`;
+    temp.textContent= `Temp: ${main.temp}`;
+    humidity.textContent = `Humidity: ${main.humidity}%`;
     windSpeed.textContent = `Wind Speed: ${wind.speed} MPH`;
 
+    summary.appendChild(h2);
+    //summary.appendChild(currently);
     summary.appendChild(temp);
     summary.appendChild(humidity);
     summary.appendChild(windSpeed);
 
     document.querySelector('.summary').appendChild(summary);
 
-
+    
     
 
 });
@@ -34,7 +40,7 @@ fetch (apiURL)
 .then((response) => response.json())
 .then((jsObject) => {
     console.log(jsObject);
-    const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    const weekday = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"];
     const fivedayforecast = jsObject.list.filter (x => x.dt_txt.includes ('18:00:00'));
         console.log(fivedayforecast);
 

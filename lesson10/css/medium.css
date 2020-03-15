@@ -67,20 +67,27 @@
      
     
  
-   .weathersummary {
-      position: absolute;
-      
-  
+   .summary {
+      position: absolute;  
       padding: 5px;
-      top: 20px;
-      left: 20px;
+      top: 5px;
+      left: 5px;
       background: radial-gradient(white, #639CB9);
       border: 1px solid black;
       box-shadow: 0 0 30px white;
       opacity: .8;
    }
+#forecastUl {
+   list-style-type: none;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: none;
 
+}
 
+.wicon {
+   width: 20px;
+}
  
 #article {
    width: 75%;
