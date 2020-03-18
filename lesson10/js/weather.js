@@ -18,16 +18,19 @@ fetch (apiURL)
     
 
     h2.textContent= `Weather Summary`;
-    currently.textContent= `Currently: ${weather.main}`;
+    currently.textContent= `Currently: ${weather[0].main}`;
     temp.textContent= `Temp: ${main.temp}° F`;
     humidity.textContent = `Humidity: ${main.humidity}%`;
     windSpeed.textContent = `Wind Speed: ${wind.speed} MPH`;
+    
+       
 
     summary.appendChild(h2);
     summary.appendChild(currently);
     summary.appendChild(temp);
     summary.appendChild(humidity);
     summary.appendChild(windSpeed);
+    
 
     document.querySelector('.summary').appendChild(summary);
 
@@ -50,9 +53,10 @@ fetch (apiURL)
         for (const item of fivedayforecast) {
             const dow = new Date(item.dt_txt);
 
-            content += `<li class= "dow">
-                        ${weekday[dow.getDay()]}                        
+            content += `<li>
+                        ${weekday[dow.getDay()]}                                             
                         <img class= "wicon" src="https://openweathermap.org/img/w/${item.weather[0].icon}.png" alt ="">
+                                               
                         ${item.main.temp}°F
                         </li>`;
             

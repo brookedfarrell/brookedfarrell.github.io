@@ -68,7 +68,8 @@
     
  
    .summary {
-      position: absolute;  
+      position: absolute; 
+      width: auto; 
       padding: 5px;
       top: 8px;
       left: 8px;
@@ -79,34 +80,41 @@
    }
   
 
-   }
+ 
 
 
-  
- #forecastUl{
+
+ .forecast{
+    display: block;
+    width: 75%;
     
-    list-style-type: none;
-    align-items: center;
+   
+ } 
+ #forecastUl{
    display: grid;
    grid-template-columns: auto auto auto auto auto;
+   
+
+    list-style-type: none;
+    align-content: center;
+   
  }  
       
  #forecastUl li{
-  
-    align-items: center;
+   display: inline-grid;
+   grid-auto-columns: auto auto auto auto auto; 
+   
+    
     text-align: center;
     
     border: 1px solid black;
-    display: grid;
-    
-    grid-gap: 5px; 
+ }  
+ 
 
- }     
+#forecastUl li .wicon {
+  width: 50%; 
+  
 
-
-.wicon {
-   
-   width: 50%;
 }
  
 #article {
@@ -243,3 +251,4 @@ article:nth-child(3) {
 
 
 
+}
