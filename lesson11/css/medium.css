@@ -238,7 +238,7 @@ article:nth-child(3) {
 
 .pics{
    display: grid;
-   grid-template-columns: repeat(auto-fit, 1fr 1fr);
+   grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
    
    grid-gap: 30px;
    
@@ -247,7 +247,9 @@ article:nth-child(3) {
    display: grid;
   
   }
-
+.pair:hover{
+   box-shadow: none;
+}
 
 
 
