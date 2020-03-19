@@ -87,32 +87,34 @@
  .forecast{
     display: block;
     width: 75%;
-    
+    background-color: #639CB9;
    
  } 
  #forecastUl{
    display: grid;
    grid-template-columns: auto auto auto auto auto;
-   
+   background-color: #639CB9; 
+  
 
-    list-style-type: none;
-    align-content: center;
+   list-style-type: none;
+   align-content: center;
    
  }  
       
  #forecastUl li{
    display: inline-grid;
-   grid-auto-columns: auto auto auto auto auto; 
-   
-    
-    text-align: center;
-    
-    border: 1px solid black;
+   grid-auto-columns: 75px 75px 75px 75px 75px; 
+  
+  
+   text-align: center;
+   border: 1px solid black;
  }  
  
-
+   
+ }
 #forecastUl li .wicon {
-  width: 50%; 
+  width: 25%;
+  align-items: center; 
   
 
 }
@@ -251,4 +253,3 @@ article:nth-child(3) {
 
 
 
-}

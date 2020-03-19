@@ -1,7 +1,7 @@
 const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
 fetch(requestURL)
     .then(function(response) {
-    //console.log(response);
+    console.log(response);
     return response.json();
     })
     .then(function (jsonObject){
@@ -9,7 +9,7 @@ fetch(requestURL)
         const prophets = jsonObject['prophets'];
     
         prophets.forEach(prophet =>  {
-            if (towns[i].name == "Fish Haven" || "Soda Springs" || "Preston")
+           
             let card = document.createElement('section');
             let h2 = document.createElement('h2');
            
