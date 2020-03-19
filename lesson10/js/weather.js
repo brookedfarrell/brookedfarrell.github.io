@@ -43,10 +43,10 @@ fetch (apiURL)
 fetch (apiURL)
 .then((response) => response.json())
 .then((jsObject) => {
-    console.log(jsObject);
+    //console.log(jsObject);
     const weekday = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"];
     const fivedayforecast = jsObject.list.filter (x => x.dt_txt.includes ('18:00:00'));
-        console.log(fivedayforecast);
+        //console.log(fivedayforecast);
     
         let forecastUl = document.getElementById('forecastUl');
         let content = "";
