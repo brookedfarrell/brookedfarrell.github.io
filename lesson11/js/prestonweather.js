@@ -54,7 +54,7 @@ fetch (apiURL)
             const dow = new Date(item.dt_txt);
 
             content += `<li>
-                        ${weekday[dow.getDay()]}                                             
+                        ${weekday[dow.getDay()]}                                              
                         <img class= "wicon" src="https://openweathermap.org/img/w/${item.weather[0].icon}.png" alt ="">
                                                
                         ${item.main.temp}°F

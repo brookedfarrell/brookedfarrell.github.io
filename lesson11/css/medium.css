@@ -88,37 +88,44 @@
     display: block;
     width: 75%;
     
+    
    
  } 
  #forecastUl{
    display: grid;
    grid-template-columns: auto auto auto auto auto;
-   
-
+   width: 75%;
+   margin: 0 auto;
+   padding: 25px;
     list-style-type: none;
     align-content: center;
+    
    
  }  
       
  #forecastUl li{
    display: inline-grid;
    grid-auto-columns: auto auto auto auto auto; 
-   
-    
-    text-align: center;
-    
-    border: 1px solid black;
+   text-align: center;
+   border: 1px solid black;
  }  
- 
+ #forecastUl text {
+    border: 1px solid black;
+    background-color: #639CB9;
+ }
 
 #forecastUl li .wicon {
-  width: 50%; 
+   display: block;
+   margin: auto;
+   width: 50%; 
+   
   
 
 }
  
 #article {
    width: 75%;
+   
    margin: 0 auto;
    padding: 25px;
 

@@ -22,10 +22,11 @@
         border: none;
         
     }
-    }
+    
     #fiveday{
         text-align: center;
     }
+    
   
   
         
@@ -72,4 +73,5 @@ article:nth-child(3) {
 }
 img {
     width: 100%;
+}
 }
