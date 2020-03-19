@@ -2,7 +2,7 @@ let apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=i
 fetch (apiURL)
 .then((response) => response.json())
 .then((jsObject) => {
-    console.log(jsObject);
+    //console.log(jsObject);
 
     const main = jsObject['main'];
     const wind = jsObject['wind'];
