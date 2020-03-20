@@ -50,16 +50,19 @@
   
   
 .herodiv{ 
+   margin:auto;
    
-   width: 50%;  
-   margin: auto;
+    
+   
    position: relative;
    
   
     
  }
  .herodiv figure {
-   margin: 0 auto;
+  
+   
+   margin: auto;
    
    
    /*border: 1px solid black;*/
@@ -79,7 +82,9 @@
       opacity: .8;
    }
   
-
+#fiveday {
+   text-align: center;
+}
  
 
 
@@ -147,6 +152,7 @@
     
 }
 .leftcol{
+   display: none;
    max-width: 48%;
    margin: auto;
    flex: 1 0 15em;
@@ -155,24 +161,21 @@
 
 } 
 .weathermap{
-   display: block;
-   width: 75%;
-   border: 1px solid black;
-   margin: 1rem;
-   box-shadow: 0 0 30px black;
+   display: none;
+   
 }
 .rightcol{
-   max-width: 48%;
+   
    flex: 1 0 15em;
    margin: auto;
    padding: 10px;
    
-   text-align: center;
+   text-align: left;
    /*item-align: justify? */
  }
 .sm{
-   width: 20%;
-   height: 20%;
+   width: 10%;
+   
    padding: 5px;
   
 

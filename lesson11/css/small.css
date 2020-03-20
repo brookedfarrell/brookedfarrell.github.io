@@ -91,7 +91,7 @@ nav ul li a:hover {background-color: #d7bcc8;}
 
 nav ul.hide {display:none;}   
  /* herodiv*/ 
-div picture {
+.herodiv figure {
     display: flex;
     padding: 5px;
     margin: 0 auto;
@@ -104,6 +104,16 @@ div picture {
      text-align: center;
 
  }
+ #fiveday {
+     display: none;
+ }
+ .forecast{
+     display: none;
+ }
+ #forecastUl{
+     display: none;
+ }
+ 
 footer , #footer{
     background-color: #2978A0;
     color: #ffffff;
@@ -157,8 +167,13 @@ figcaption{
 .pair{
     display: block;
 }
-img {
-    width: 50%;
+#snow {
+    display: flex;
+    margin: 0 auto;
+    width: 75%;
+}
+.weathermap{
+    display: none;
 }
 
 /* storm center */
