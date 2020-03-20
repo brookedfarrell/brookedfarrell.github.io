@@ -15,6 +15,7 @@ fetch (apiURL)
     let temp = document.createElement('p');
     let humidity= document.createElement('p');
     let windSpeed = document.createElement('p');
+    let windchill= 35.74 + (0.6215 * temp)-(35.75 * Math.pow(windSpeed, 0.16)) + (0.4275 * temp * Math.pow(windSpeed, 0.16));
     
 
     h2.textContent= `Weather Summary`;
@@ -22,7 +23,7 @@ fetch (apiURL)
     temp.textContent= `Temp: ${main.temp}° F`;
     humidity.textContent = `Humidity: ${main.humidity}%`;
     windSpeed.textContent = `Wind Speed: ${wind.speed} MPH`;
-    
+    windchill.textContent= `Wind Chill: ${windchill}`;
        
 
     summary.appendChild(h2);
