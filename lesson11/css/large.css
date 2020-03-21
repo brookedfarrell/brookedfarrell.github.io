@@ -22,14 +22,25 @@
         border: none;
         
     }
-    .weathermap{
+    
+    
+        
+     .leftcol{
+        display: fl;
+        max-width: 48%;
+        margin: auto;
+        flex: 1 0 15em;
+        padding: 10px;
+       
+     
+     } 
+    iframe{
         display: block;
         width: 75%;
         border: 1px solid black;
         margin: 1rem;
         box-shadow: 0 0 30px black;
      }
-    
     #fiveday{
         text-align: center;
     }
@@ -78,7 +89,6 @@ article:nth-child(3) {
 .pair:hover{
     box-shadow: 0 0 30px #639CB9;
 }
-img {
+/*img {
     width: 100%;
-}
-}
+}*/

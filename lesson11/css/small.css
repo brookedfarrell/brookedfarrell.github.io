@@ -91,14 +91,14 @@ nav ul li a:hover {background-color: #d7bcc8;}
 
 nav ul.hide {display:none;}   
  /* herodiv*/ 
-.herodiv figure {
-    display: flex;
+.herodiv {
+    
     padding: 5px;
     margin: 0 auto;
  } 
  .summary{
      border: 1px solid black;
-     width: 75%;
+     width: auto;
      margin: 0 auto;
      background: radial-gradient(white, #639CB9);
      text-align: center;
@@ -172,8 +172,15 @@ figcaption{
     margin: 0 auto;
     width: 75%;
 }
-.weathermap{
+iframe{
     display: none;
+}
+.content h3{
+    text-align: center;
+}
+
+.sm {
+    width: 15%;
 }
 
 /* storm center */
