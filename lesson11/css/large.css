@@ -86,9 +86,13 @@ article:nth-child(3) {
     text-align: center;
    
 }
+.pair img{
+    width: 100%;
+}
 .pair:hover{
     box-shadow: 0 0 30px #639CB9;
 }
 /*img {
     width: 100%;
 }*/
+}

@@ -23,7 +23,7 @@ fetch (apiURL)
     temp.textContent= `Temp: ${main.temp}° F`;
     humidity.textContent = `Humidity: ${main.humidity}%`;
     windSpeed.textContent = `Wind Speed: ${wind.speed} MPH`;
-    windchill.textContent= `Wind Chill: ${windchill}`;
+    windchill.textContent= `Wind Chill: `;
        
 
     summary.appendChild(h2);
@@ -31,6 +31,7 @@ fetch (apiURL)
     summary.appendChild(temp);
     summary.appendChild(humidity);
     summary.appendChild(windSpeed);
+    summary.appendChild(windchill);
     
 
     document.querySelector('.summary').appendChild(summary);
