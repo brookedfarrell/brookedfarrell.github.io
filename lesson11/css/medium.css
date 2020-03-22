@@ -4,36 +4,35 @@
    }
    
    nav {
-      display: flex;
-      flex: 1 1 100%;
+     
       background-color: #639CB9;
      
       font-family: "Oswald", Helvetica, sans-serif;
       font-size: 20px;
-      text-align: center;
       
-      
-   
-   
+     
+   }
+   nav ul{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-around;
    }
    nav button {display: none;}
-   nav ul.hide {display: block;}
+   nav ul.hide {display: flex;}
 
 
   
-  nav ul li {
-     
-      float: left;
-      
-  }
+
   nav ul li a {
-     flex: 1 1 100%;
+      display: flex;
+      flex-direction: row;
       padding: .6rem 1rem;
       border: none;
       
   }
       nav a{ /*anchor*/
-         display: block;
+         display: flex;
          padding: .8rem 0; /* 44 min height per apple*/
          color: #000000;
       

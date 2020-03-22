@@ -2,22 +2,27 @@
     
 
     nav {
-        display: flex;
+        
        
         background-color: #639CB9;
-        text-align: center;
-        align-items: center;
+        
         /*justify-content: center space-evenly;*/
     }
-    nav button {display: none;}
-    nav ul.hide {display: block;}
-  
-    nav ul li {
-        flex: 1 1 100%;
-        float: left;
+    nav ul {
         
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
     }
+    nav button {display: none;}
+    nav ul.hide {display: flex;}
+  
+   
     nav ul li a {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
         padding: .6rem 1rem;
         border: none;
         
