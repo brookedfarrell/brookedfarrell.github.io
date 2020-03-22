@@ -15,7 +15,7 @@ fetch(requestURL)
             let motto= document.createElement('motto');
             let year= document.createElement('year');
             let pop= document.createElement('pop');
-            let fall= document.createElement('fall');
+            let fall= document.createElement('fall');            
             let img= document.createElement('img');
 
             
