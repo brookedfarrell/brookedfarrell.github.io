@@ -1,0 +1,26 @@
+nav {
+    font-size: 20px;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+nav button {display: none;}
+nav ul.hide{display: flex;}
+
+nav ul li a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: .6rem 1rem;
+    border: none;
+}
+iframe{
+    display: block;
+    width: 75%;
+    border: 1px solid black;
+    margin: 0 auto;
+    box-shadow: 0 0 30px black;
+ }

@@ -1,0 +1,19 @@
+{
+  "guides": [
+        {
+            "name": "Shiela",
+            "years": 3,
+            "experience": "intermediate"
+        }
+        {
+            "name": "Sam",
+            "years": 5,
+            "experience": "expert"
+        }
+        {
+            "name": "Sonny",
+            "years": 15,
+            "experience": "expert"
+        }
+    ]
+}

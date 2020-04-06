@@ -1,0 +1,11 @@
+nav {
+    font-size: 15px;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+nav button {display: none;}
+nav ul.hide{display: flex;}
