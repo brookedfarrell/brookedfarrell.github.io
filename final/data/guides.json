@@ -3,19 +3,19 @@
         {
             "name": "Shiela",
             "years": 3,
-            "experience": "intermediate",
+            "experience": "Intermediate",
             "bio": "Sheila has been a guide for the past 3 years, but she has been running rivers since she was 3 years old. When she isn’t running rivers, she enjoys rock climbing, camping and hiking. She is currently studying Geology at Brigham Young University Idaho."
         },
         {
             "name": "Sam",
             "years": 5,
-            "experience": "expert",
+            "experience": "Expert",
             "bio": "Sam has been a guide for 5 years. He grew up in a survivalist community practicing skills in surviving in the wilderness. He can start a fire with a bow drill and is very good at hunting with a bow and arrow. When he is not guiding river tours he is training for a spot on Naked and Afraid. "
         },
         {
             "name": "Sonny",
             "years": 15,
-            "experience": "expert",
+            "experience": "Expert",
             "bio": "Sonny is a founding member of Salmon River Adventures and has been guiding on the Salmon River for 15 years. He loves kayaking both the rapids and the calm waters enjoying the scenery of South Eastern Idaho. He has a bachelor’s degree in Accounting but decided that the river was a better fit and gave it up for the freedom of the wilderness."
         }
     ]

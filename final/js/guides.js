@@ -6,7 +6,7 @@ fetch(requestURL)
     })
     .then(function (jsonObject){
         console.table(jsonObject);
-        const guides = jsonObject["guides"];
+        const guides = jsonObject['guides'];
 
         guides.forEach(guide => {
 
@@ -17,10 +17,10 @@ fetch(requestURL)
             let experience = document.createElement('experience');
             let bio = document.createElement('bio');
 
-            h3.textContent = `${guides.name}`;
-            years.textContent = `Years Guiding: ${guides.years}`;
-            experience.textContent = `Experience Level: ${guides.experience}`;
-            bio.textContent = `${guides.bio}`;
+            h3.textContent = `${guide.name}`;
+            years.textContent = `Years Guiding: ${guide.years}`;
+            experience.textContent = `Experience Level: ${guide.experience}`;
+            bio.textContent = `${guide.bio}`;
 
             card.appendChild(h3);
             card.appendChild(years);
