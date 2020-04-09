@@ -17,6 +17,18 @@ nav ul li a {
     padding: .6rem 1rem;
     border: none;
 }
+.choices {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+section:nth-child(3) {
+    grid-column: span 1;
+}
+.choices img {
+    width: 100%;
+   
+}
 iframe{
     display: block;
     width: 75%;

@@ -63,22 +63,34 @@ nav a {
     text-align: center;
     text-decoration: none;
 }
-nav ul.hide {display: none;}
+
+.pgtitle{
+    text-align: center;
+}
 
 .summary {
     border: 1px solid black;
     padding: 5px;
-    margin: 0 auto;
-    width: 75%;
+    margin: 25px auto;
+    width: 50%;
     text-align: center;
     background-color: $color3;
+    display: block;
+    position: relative;
+    box-shadow: 5px 5px 10px -5px;
 }
 .forkpic {
-    margin: 0 auto;
-    border: 1px solid black;
-    box-shadow: 0 0 30px;
+    display: block;
+    position: relative;
+    margin: 25px auto;
+    
+    box-shadow: 5px 5px 10px -5px;
     
 }
+.info{
+    text-align: center;
+}
+
 iframe {
     display: block;
     width: 75%;
@@ -100,7 +112,7 @@ form label.top, form {
     padding-top: 1rem;
     font-size: .8rem;
 }
-form label.top input, form label.top select {
+form label.top input, form label.top select, .addinfo {
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
@@ -119,7 +131,8 @@ form input.submitButton {
     margin: 0 0 2rem 2%;
     padding: .75rem 1.5rem;
     width: 96%;
-    max-width: 20rem;
+    max-width: 15rem;
+    font-size: 20px;
 
 }
 form label.top input:required{
@@ -128,6 +141,7 @@ form label.top input:required{
 form label.top input:required:valid {
     border-left: green solid 6px;
 }
+
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -156,6 +170,42 @@ form label.top input:required:valid {
     font-weight: bold;
     padding: 10px;
    
+}
+table{
+    margin: 50px auto;
+    padding: 15px;
+    font-family: "Ubuntu", sans-serif;
+    box-shadow: 5px 5px 10px -5px;
+      
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    
+} 
+thead tr{
+    background-color: $color4;
+}
+thead tr th {
+    
+    text-align: center;
+    font-size: 25px;
+    
+}
+.first {
+    background-color: $color5;
+    color: white;
+}
+tbody{
+    text-align: center;
+}
+tr {
+    background-color: $color3;
+}
+h3.ftnt {
+    text-align: center;
+    text-emphasis: none;
 }
 
 footer {

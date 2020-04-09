@@ -9,3 +9,20 @@ nav ul {
 }
 nav button {display: none;}
 nav ul.hide{display: flex;}
+
+
+.choices{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    margin: 20px;
+    padding: 20px;
+    
+    
+}
+.choices h3 {
+    text-align: center;
+}
+section:nth-child(3) {
+    grid-column: span 2;
+}

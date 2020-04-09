@@ -2,7 +2,7 @@
 <html lang= "en-us">
     <head>
         <meta charset= "utf-8">
-        <meta name= "viewport" content= "width=device-width, initial-scale-1">
+        <meta name= "viewport" content= "width=device-width, initial-scale=1">
         <meta name= "author" content= "Brooke Farrell">
         <title>Salmon River Adventures</title>
         <link rel= "stylesheet" href= "css/style.css">
@@ -19,12 +19,13 @@
                 
                 <ul id= "primaryNav" class= "hide">
                     <li><a href= "index.html">Home</a></li>
-                    <li><a href="#">Adventures</a></li>                    
+                    <li><a href="adventures.html">Adventures</a></li>                    
                     <li><a href= "guides.html">Our Guides</a></li>
                     <li><a class= "active" href= "reservations.html">Reservations</a></li>
                     <li><a href= "contactus.html">Contact Us</a></li>
                 </ul>
             </nav>
+            <h2 class= "pgtitle">Reservations</h2>
                <table>
                    <thead>
                        <tr>
@@ -33,26 +34,43 @@
                    </thead>
                    <tbody>
                        <tr>
-                           <th></th>
-                           <th>Price</th>
-                           <th>Difficulty</th>
-                           <th></th>
-                           <th></th>
+                           <th class= "first">Trip</th>
+                           <th class= "first">Difficulty</th>
+                           <th class= "first">Adult Rate</th>
+                           <th class= "first">Youth Rate*</th>
+                           <th class= "first">Seniors**</th>
+                          
+                           
                        </tr>
                        <tr>
-                           <th>1/2 Day</th>
-                           <th></th>
+                           <th class= "first">1/2 Day</th>
+                           
+                           <th><img src= "images/logo.png"> <img src= "images/logo.png"></th>
+                           <th>$50</th>
+                           <th>$35</th>
+                           <th>$45</th>
+                           
                        </tr>
                        <tr>
-                           <th>Full Day</th>
-                           <th></th>
+                           <th class= "first">Full Day</th>
+                          
+                           <th><img src= "images/logo.png"> <img src= "images/logo.png"> <img src= "images/logo.png"></th>
+                           <th>$100</th>
+                           <th>$70</th>
+                           <th>$90</th>
                        </tr>
                        <tr>
-                           <th>Weekend</th>
-                           <th></th>
+                           <th class= "first">Two Day</th>
+                           
+                           <th><img src= "images/logo.png"> <img src= "images/logo.png"> <img src= "images/logo.png"> <img src= "images/logo.png"></th>
+                           <th>$300</th>
+                           <th>$210</th>
+                           <th>$270</th>
                        </tr>
                    </tbody>
                </table>
+               <h3 class= "ftnt">*Youth 5-12</h3>
+               <h3 class= "ftnt">**Seniors 65+</h3>
                <form method= "get">
                    <fieldset>
                        <label class= "top">Full Name*<input type= "text" name= "fname" pattern= "[A-Za-Z].{5,}" required></label>

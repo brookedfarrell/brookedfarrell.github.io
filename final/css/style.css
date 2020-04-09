@@ -364,21 +364,28 @@ nav a {
   text-align: center;
   text-decoration: none; }
 
-nav ul.hide {
-  display: none; }
+.pgtitle {
+  text-align: center; }
 
 .summary {
   border: 1px solid black;
   padding: 5px;
-  margin: 0 auto;
-  width: 75%;
+  margin: 25px auto;
+  width: 50%;
   text-align: center;
-  background-color: #f5e6e8; }
+  background-color: #f5e6e8;
+  display: block;
+  position: relative;
+  box-shadow: 5px 5px 10px -5px; }
 
 .forkpic {
-  margin: 0 auto;
-  border: 1px solid black;
-  box-shadow: 0 0 30px; }
+  display: block;
+  position: relative;
+  margin: 25px auto;
+  box-shadow: 5px 5px 10px -5px; }
+
+.info {
+  text-align: center; }
 
 iframe {
   display: block;
@@ -401,7 +408,7 @@ form label.top, form {
   padding-top: 1rem;
   font-size: .8rem; }
 
-form label.top input, form label.top select {
+form label.top input, form label.top select, .addinfo {
   -webkit-appearance: none;
   display: block;
   font-size: 1rem;
@@ -419,7 +426,8 @@ form input.submitButton {
   margin: 0 0 2rem 2%;
   padding: .75rem 1.5rem;
   width: 96%;
-  max-width: 20rem; }
+  max-width: 15rem;
+  font-size: 20px; }
 
 form label.top input:required {
   border-left: red solid 6px; }
@@ -452,6 +460,38 @@ form label.top input:required:valid {
   font-weight: bold;
   padding: 10px; }
 
+table {
+  margin: 50px auto;
+  padding: 15px;
+  font-family: "Ubuntu", sans-serif;
+  box-shadow: 5px 5px 10px -5px; }
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px; }
+
+thead tr {
+  background-color: #ff6f59; }
+
+thead tr th {
+  text-align: center;
+  font-size: 25px; }
+
+.first {
+  background-color: #43aa8b;
+  color: white; }
+
+tbody {
+  text-align: center; }
+
+tr {
+  background-color: #f5e6e8; }
+
+h3.ftnt {
+  text-align: center;
+  text-emphasis: none; }
+
 footer {
   padding: 1rem 2%;
   background-color: #254441;
@@ -471,7 +511,17 @@ footer {
   nav button {
     display: none; }
   nav ul.hide {
-    display: flex; } }
+    display: flex; }
+  .choices {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    margin: 20px;
+    padding: 20px; }
+  .choices h3 {
+    text-align: center; }
+  section:nth-child(3) {
+    grid-column: span 2; } }
 
 @media only screen and (min-width: 1028px) {
   nav {
@@ -491,6 +541,13 @@ footer {
     justify-content: space-around;
     padding: .6rem 1rem;
     border: none; }
+  .choices {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; }
+  section:nth-child(3) {
+    grid-column: span 1; }
+  .choices img {
+    width: 100%; }
   iframe {
     display: block;
     width: 75%;
