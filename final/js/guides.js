@@ -23,7 +23,7 @@ fetch(requestURL)
             experience.textContent = `Experience Level: ${guide.experience}`;
             bio.textContent = `${guide.bio}`;
 
-            img.setAttribute('src', guide.img);
+            img.setAttribute('src', guide.imageurl);
             img.setAttribute('alt', guide.name);
 
             card.appendChild(h3);
