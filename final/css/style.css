@@ -364,6 +364,15 @@ nav a {
   text-align: center;
   text-decoration: none; }
 
+nav li.active a {
+  background-color: #ff6f59; }
+
+nav ul li a:hover {
+  background-color: #ff6f59; }
+
+nav ul.hide {
+  display: none; }
+
 .pgtitle {
   text-align: center; }
 
@@ -512,6 +521,13 @@ footer {
     display: none; }
   nav ul.hide {
     display: flex; }
+  nav a {
+    padding: .8rem 0; }
+  nav li.active a {
+    background-color: #ff6f59;
+    text-decoration: underline; }
+  nav ul li a:hover {
+    background-color: #ff6f59; }
   .choices {
     display: grid;
     grid-template-columns: 1fr 1fr;

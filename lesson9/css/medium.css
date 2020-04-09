@@ -43,7 +43,7 @@
       nav li.active a {
          background-color: #d7bcc8;
          color: black; 
-         text-decoration: underline;;
+         text-decoration: underline;
       }
   
       nav ul li a:hover {background-color: #d7bcc8;}  

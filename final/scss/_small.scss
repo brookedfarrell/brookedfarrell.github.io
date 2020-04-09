@@ -63,6 +63,11 @@ nav a {
     text-align: center;
     text-decoration: none;
 }
+nav li.active a {background-color: $color4;}
+
+nav ul li a:hover {background-color: $color4;}
+
+nav ul.hide {display: none;}
 
 .pgtitle{
     text-align: center;
