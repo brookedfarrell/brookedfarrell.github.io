@@ -11,10 +11,11 @@ nav button {display: none;}
 nav ul.hide {display: flex;}
 
 nav a {
+    display: block;
     padding: .8rem 0;
 }
 
-nav li.active a {
+nav li.active a{
     background-color: $color4;
     text-decoration: underline;
 }

@@ -522,6 +522,7 @@ footer {
   nav ul.hide {
     display: flex; }
   nav a {
+    display: block;
     padding: .8rem 0; }
   nav li.active a {
     background-color: #ff6f59;
