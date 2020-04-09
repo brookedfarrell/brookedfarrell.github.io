@@ -1,7 +1,7 @@
 const requestURL = "https://brookedfarrell.github.io/final/data/guides.json";
 fetch(requestURL)
     .then(function(response) {
-        console.log(response);
+        //console.log(response);
         return response.json();
     })
     .then(function (jsonObject){
