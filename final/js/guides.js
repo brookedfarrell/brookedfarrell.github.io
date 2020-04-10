@@ -5,7 +5,7 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject){
-        console.table(jsonObject);
+        //console.table(jsonObject);
         const guides = jsonObject['guides'];
 
         guides.forEach(guide => {
