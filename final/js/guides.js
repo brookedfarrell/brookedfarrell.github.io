@@ -27,10 +27,11 @@ fetch(requestURL)
             img.setAttribute('alt', guide.name);
 
             card.appendChild(h3);
+            card.appendChild(img);
             card.appendChild(years);
             card.appendChild(experience);
             card.appendChild(bio);
-            card.appendChild(img);
+            
 
            
 

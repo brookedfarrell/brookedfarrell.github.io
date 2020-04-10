@@ -467,7 +467,7 @@ form label.top input:required:valid {
   font-size: 16px;
   display: block;
   font-weight: bold;
-  padding: 10px; }
+  padding: 25px; }
 
 table {
   margin: 50px auto;
@@ -541,7 +541,9 @@ footer {
   .choices h3 {
     text-align: center; }
   section:nth-child(3) {
-    grid-column: span 2; } }
+    grid-column: span 2; }
+  section:nth-child(3) img {
+    margin: 0 auto; } }
 
 @media only screen and (min-width: 1028px) {
   nav {

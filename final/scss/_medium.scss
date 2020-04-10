@@ -36,4 +36,8 @@ nav ul li a:hover {background-color: $color4;}
 }
 section:nth-child(3) {
     grid-column: span 2;
+
+}
+section:nth-child(3) img{
+    margin: 0 auto;
 }
