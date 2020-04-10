@@ -447,14 +447,14 @@ form label.top input:required:valid {
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 5x;
-  padding: 5px;
+  grid-gap: 5px;
   text-align: center; }
 
 .cards section {
   background-color: #639CB9;
   border: 1px solid black;
-  margin: 5px; }
+  margin: 5px;
+  padding: 25px; }
 
 .cards section img {
   width: 50%;
